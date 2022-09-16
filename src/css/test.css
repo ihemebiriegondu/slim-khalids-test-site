@@ -1,0 +1,74 @@
+.mainTestPage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.mainTestPage nav {
+    background-color: white;
+}
+
+.mainTestDiv {
+    height: 100%;
+    margin-top: 5.1rem !important;
+}
+
+.mainTestContaier {
+    height: 100%;
+}
+
+.mainTestDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.questionsDiv {}
+
+.testQuestion {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.testOptionsDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.testOption {
+    margin-bottom: 1.5rem !important;
+    display: flex;
+    align-items: center;
+}
+
+.testOption input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    background-clip: content-box;
+    border: 2px solid orange;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: none !important;
+}
+
+.testOption input[type="radio"]:checked {
+    background-color: orange;
+  }
+
+.testOption label {
+    font-size: 20px;
+    font-size: 400;
+}
+
+.directionBtn {
+    background-color: orange !important;
+    color: white !important;
+    font-size: 18px;
+}
