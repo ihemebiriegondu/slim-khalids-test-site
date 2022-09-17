@@ -5,6 +5,7 @@
     width: 100%;
     overflow-x: hidden;
     background-color: white !important;
+    padding-bottom: 4rem;
 }
 
 .school-name {
@@ -37,35 +38,12 @@
 }
 
 .timer-div button {
-    background-color: red;
     color: white;
     text-transform: uppercase;
 }
 
-.mainTestPage nav {
-    background-color: white;
-}
-
-.mainTestDiv {
-    width: 95%;
-    margin: auto;
-    background-color: blue;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 9rem !important;
-    margin-bottom: 5rem !important;
-}
-
-.mainTestContaier {
-    height: 100%;
-    color: white !important;
-}
-
-.questionsDiv {}
-
 .testQuestion {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 23px;
 }
 
 .testOptionsDiv {
@@ -77,6 +55,12 @@
     margin-bottom: 1.5rem !important;
     display: flex;
     align-items: center;
+}
+
+.testOption .alphabetOption {
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 2rem;
 }
 
 .testOption input[type="radio"] {
@@ -96,7 +80,7 @@
 
 .testOption input[type="radio"]:checked {
     background-color: darkorange;
-  }
+}
 
 .testOption label {
     font-size: 20px;
@@ -113,4 +97,47 @@
 .directionBtn:hover {
     background-color: orange !important;
     transition: all 0.5s ease-in-out;
+}
+
+
+
+@media (max-width: 768px) {
+    .timer-div .time {
+        font-weight: 500 !important;
+        font-size: 20px;
+    }
+
+    .testQuestion {
+        font-size: 20px;
+    }
+
+    .testOption input[type="radio"] {
+        width: 18px;
+        height: 18px;
+        padding: 3px;
+    }
+
+    .testOption label {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .timer-container-div {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+
+    .info-div {
+        align-items: flex-start !important;
+    }
+
+    .timer-div {
+        display: flex;
+        width: 100% !important;
+        margin-top: 1rem !important;
+        justify-content: space-between !important;
+    }
+    
 }
