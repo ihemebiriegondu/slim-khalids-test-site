@@ -4,10 +4,19 @@
     background-size: cover;
     position: absolute;
     top: 0;
-    background-position: center;
     bottom: 0;
     width: 100%;
     padding: 10rem 0;
+    height: 100%;
+}
+
+.mainLoginImg {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 .login-backdrop {
@@ -40,8 +49,31 @@
     font-size: 20px;
 }
 
-.form-floating.invalid-form input {
+.email-form-floating.invalid-form input {
     border: 3px solid #dc3545 !important;
+}
+
+.password-form-floating.invalid-form input {
+    border: 3px solid #dc3545 !important;
+    border-left: 0 !important;
+}
+
+.password-form-floating.invalid-form .input-group-text {
+    border: 3px solid #dc3545 !important;
+}
+
+.password-form-floating .input-group-text {
+    background-color: white !important;
+    border: 3px solid blue !important;
+    border-right: 3px solid orange !important;
+}
+
+.password-form-floating.invalid-form .invalid-feedback{
+    display: inline-block !important;
+}
+
+.password-form-floating .input-group-text:hover {
+    cursor: pointer;
 }
 
 .mainForm form label {
@@ -54,6 +86,15 @@
     box-shadow: none !important;
     background-color: white;
     font-size: 18px;
+}
+
+.mainForm .password-form-floating input {
+    border-left: 0 !important;
+    border-radius: 0 5px 5px 0 !important;
+}
+
+.mainForm .password-form-floating input:focus {
+    border-left: 0 !important;
 }
 
 .mainForm form input:focus {
@@ -78,6 +119,10 @@
     transition: all 0.5s ease-in-out;
 }
 
+.invalid-feedback {
+    font-weight: 500 !important;
+    font-size: 17px !important;
+}
 
 
 @media (max-width: 1300px) {

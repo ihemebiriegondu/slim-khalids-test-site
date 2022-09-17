@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai'
+import bigLogo from '../images/biglogo.png'
 
 import Participants from "../Participants.json"
 
@@ -9,29 +11,52 @@ const Login = () => {
     const validateLoginForm = (event) => {
         const email = document.getElementById("email");
         const password = document.getElementById("password");
-        if (email.value === "") {
+
+        let isEmail = false;
+
+        for (var i = 0; i < Participants.length; i++) {
+            if (Participants[i].Participant.email === email.value) {
+                //alert(Participants[i].Participant.name)
+                isEmail = true;
+
+                localStorage.setItem("participantName", Participants[i].Participant.name )
+                //let participantName = localStorage.getItem("participantName")
+            }
+        }
+
+        if (isEmail === false && password.value !== "12345") {
             event.preventDefault();
             document.querySelector(".email-form-floating").classList.add("invalid-form")
             email.classList.add("is-invalid")
-        } 
-
-        if (password.value === "") {
+            document.querySelector(".password-form-floating").classList.add("invalid-form")
+            password.classList.add("is-invalid")
+        } else if ((isEmail === false) && password.value === "12345") {
+            event.preventDefault();
+            document.querySelector(".email-form-floating").classList.add("invalid-form")
+            email.classList.add("is-invalid")
+            document.querySelector(".password-form-floating").classList.remove("invalid-form")
+            password.classList.remove("is-invalid")
+        } else if ((password.value !== "12345") && isEmail === true) {
             event.preventDefault();
             document.querySelector(".password-form-floating").classList.add("invalid-form")
             password.classList.add("is-invalid")
-        }
-        
-        else {
-            document.getElementById("loginform").action = "/test";
             document.querySelector(".email-form-floating").classList.remove("invalid-form")
             email.classList.remove("is-invalid")
+        }
+        else if (isEmail === true && password.value === "12345") {
+            document.getElementById("loginform").action = "/test";
+
+            document.querySelector(".email-form-floating").classList.remove("invalid-form")
+            email.classList.remove("is-invalid")
+            document.querySelector(".password-form-floating").classList.remove("invalid-form")
+            password.classList.remove("is-invalid")
         }
 
     }
 
     return (
         <div className='mainLoginPage'>
-            {console.log(Participants)}
+            <img src={bigLogo} alt="" className='mainLoginImg' />
             <div className='login-backdrop'>
                 <div className='mainForm'>
                     <form className='shadow-lg' id='loginform' action='' onSubmit={(event) => validateLoginForm(event)}>
@@ -41,9 +66,27 @@ const Login = () => {
                             <label for="email">Email address</label>
                             <p className='ps-3 text-danger invalid-feedback'>*Invalid email address</p>
                         </div>
-                        <div className="form-floating password-form-floating">
-                            <input type="password" className="form-control" id="password" placeholder="Passcode" />
-                            <label for="password">Passcode</label>
+
+                        <div class="input-group password-form-floating">
+                            <span class="input-group-text" id='eye-container' onClick={() => {
+                                let eyeContainer = document.getElementById("eye-container");
+
+                                eyeContainer.classList.toggle("showPassword");
+
+                                if (eyeContainer.classList.contains("showPassword")) {
+                                    document.querySelector(".eyeOpen").classList.add("d-none");
+                                    document.querySelector(".eyeClose").classList.remove("d-none");
+                                    document.getElementById("password").type = "text"
+                                } else {
+                                    document.querySelector(".eyeOpen").classList.remove("d-none");
+                                    document.querySelector(".eyeClose").classList.add("d-none");
+                                    document.getElementById("password").type = "password"
+                                }
+                            }}><AiOutlineEyeInvisible className='fs-5 eyeClose d-none' /><AiOutlineEye className='fs-5 eyeOpen' /></span>
+                            <div class="form-floating">
+                                <input type="password" className="form-control" id="password" placeholder="Passcode" />
+                                <label for="password">Passcode</label>
+                            </div>
                             <p className='ps-3 text-danger invalid-feedback'>*Incorrect Passcode</p>
                         </div>
                         <div className='text-center mt-5'>

@@ -1,17 +1,23 @@
 [
     {
-        "name": "Egondu",
-        "email": "ihemebiriegondu@gmail.com",
-        "trials": 1
+        "Participant": {
+            "name": "Egondu",
+            "email": "ihemebiriegondu@gmail.com",
+            "trials": 1
+        }
     },
     {
-        "name": "John",
-        "email": "john@gmail.com",
-        "trials": 1
+        "Participant": {
+            "name": "John",
+            "email": "john@gmail.com",
+            "trials": 1
+        }
     },
     {
-        "name": "Another",
-        "email": "another@gmail.com",
-        "trials": 1
+        "Participant": {
+            "name": "Another",
+            "email": "another@gmail.com",
+            "trials": 1
+        }
     }
 ]
