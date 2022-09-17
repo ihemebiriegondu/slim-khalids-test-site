@@ -4,7 +4,42 @@
     bottom: 0;
     width: 100%;
     overflow-x: hidden;
+    background-color: white !important;
+}
+
+.school-name {
+    background-color: blue;
+    color: white;
+}
+
+.school-name h3 {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+}
+
+.timer-container {
     background-color: aliceblue;
+}
+
+.info-div .person-icon {
+    color: darkorange !important;
+}
+
+.info-div .person-name {
+    font-weight: 500 !important;
+    font-size: 20px;
+}
+
+.timer-div .time {
+    font-weight: 500 !important;
+    font-size: 25px;
+}
+
+.timer-div button {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
 }
 
 .mainTestPage nav {
@@ -12,17 +47,18 @@
 }
 
 .mainTestDiv {
-    height: 100%;
-    margin-top: 5.1rem !important;
+    width: 95%;
+    margin: auto;
+    background-color: blue;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 9rem !important;
+    margin-bottom: 5rem !important;
 }
 
 .mainTestContaier {
     height: 100%;
-}
-
-.mainTestDiv img {
-    width: 100%;
-    height: 100%;
+    color: white !important;
 }
 
 .questionsDiv {}
@@ -52,14 +88,14 @@
     height: 25px;
     padding: 3px;
     background-clip: content-box;
-    border: 2px solid orange;
+    border: 2px solid darkorange;
     background-color: transparent;
     border-radius: 50%;
     outline: none !important;
 }
 
 .testOption input[type="radio"]:checked {
-    background-color: orange;
+    background-color: darkorange;
   }
 
 .testOption label {
@@ -68,7 +104,13 @@
 }
 
 .directionBtn {
-    background-color: orange !important;
+    background-color: darkorange !important;
     color: white !important;
     font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.directionBtn:hover {
+    background-color: orange !important;
+    transition: all 0.5s ease-in-out;
 }
