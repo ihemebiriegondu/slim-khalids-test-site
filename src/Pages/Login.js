@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai'
 import bigLogo from '../images/biglogo.png'
 
-import Participants from "../Participants.json"
+import Participants from "../JSON/Participants.json"
 
 import "../css/login.css"
 
@@ -44,7 +44,7 @@ const Login = () => {
             email.classList.remove("is-invalid")
         }
         else if (isEmail === true && password.value === "12345") {
-            document.getElementById("loginform").action = "/test";
+            document.getElementById("loginform").action = "/unilagtest";
 
             document.querySelector(".email-form-floating").classList.remove("invalid-form")
             email.classList.remove("is-invalid")
