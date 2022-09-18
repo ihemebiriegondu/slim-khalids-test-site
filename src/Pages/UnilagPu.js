@@ -18,45 +18,54 @@ const slicedQuestions = newQuestions.slice(0, 5);
 
 class UnilagPu extends Component {
 
+    //make constructor to change the index value (use useState for functional components)
+    constructor(props) {
+        super(props);
+        this.state = {
+            index: 0,
+            size: 1
+        };
+    }
+
+    //To keep selected options after pressing the next or previous button
     onAnswer(question, option) {
         let quiz = slicedQuestions;
+        //console.log(quiz)
+
+        //You can use this example below to understand the codes under it
+        //For searching through an array to get an object with a particular id
+
+        /*let myArray = [{'id':'73','foo':'bar'},{'id':'45','foo':'bar'}]
+        console.log(myArray)
+        console.log(myArray.find(x => x.id === '45'))*/
+
+        //console.log(quiz.find(x => x.id === 1010))
+
+        let q = quiz.find(x => x.id === question.id);
+        //console.log(q)
+
+        if (q.questionTypeId === 1) {
+            console.log("somethgh")
+            q.options.forEach((x) => { x.selected = false; });
+        }
+        q.options.find(x => x.id === option.id).selected = true;
+
+        /*
         let q = quiz.questions.find(x => x.id === question.id);
         if (q.questionTypeId === 1) {
             q.options.forEach((x) => { x.selected = false; });
         }
         q.options.find(x => x.id === option.id).selected = true;
         this.props.onAnswer(quiz);
+        console.log(this.props.onAnswer(quiz))*/
     }
 
     render() {
-
-        let pager = {
-            index: 0,
-            size: 1,
-            count: 1
-        }
-
-        let questions = (slicedQuestions) ? slicedQuestions.slice(pager.index, pager.index + pager.size) : [];
+        /*let questions = (this.props.quiz.questions) ?
+                    this.props.quiz.questions.slice(this.props.pager.index, this.props.pager.index + this.props.pager.size) : []; */
+        let questions = (slicedQuestions) ? slicedQuestions.slice(this.state.index, this.state.index + this.state.size) : [];
         let quiz = slicedQuestions;
 
-        let move = (event) => {
-            let direction = event.target.id;
-            let index = 0;
-
-            if (direction === 'prev')
-                index = pager.index - 1;
-            else if (direction === 'next')
-                index = pager.index + 1;
-
-            if (index >= 0 && index < this.props.pager.count) {
-                let pager = {
-                    index: index,
-                    size: 1,
-                    count: this.props.pager.count
-                };
-                this.props.onPagerUpdate(pager);
-            }
-        }
 
         return (
             <div className='mainTestPage'>
@@ -85,7 +94,7 @@ class UnilagPu extends Component {
                     <div className='col-11 m-auto mt-5'>
                         {questions.map(q =>
                             <div key={q.id}>
-                                <h4 className='mb-5'>Question {pager.index + 1} / {quiz.length}</h4>
+                                <h4 className='mb-5'>Question {this.state.index + 1} / {quiz.length}</h4>
                                 <p className='testQuestion'>{q.name}</p>
                                 <div className='testOptionsDiv ms-md-5 ms-3 mt-4'>
                                     {
@@ -104,9 +113,9 @@ class UnilagPu extends Component {
                         )}
 
                         <div className='d-flex align-items-center justify-content-between pe-4 mt-5 pt-5'>
-                            <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="prev" onClick={(event) => { move(event) }}>Prev</button>
-                            <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="next" onClick={(event) => { move(event) }}>Next</button>
-                            <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="preview-button">Preview</button>
+                            <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="prev" onClick={() => { if (this.state.index > 0) { this.setState({ index: this.state.index - 1 }) } }}>Prev</button>
+                            <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="next" onClick={() => { if (this.state.index < (quiz.length - 1)) { this.setState({ index: this.state.index + 1 }) } }}>Next</button>
+                            <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="preview-button">Review</button>
                         </div>
                     </div>
                 </main>

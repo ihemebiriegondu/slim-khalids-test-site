@@ -50,28 +50,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1011,
                     "name": "Secured and Progressive App",
                     "inputname": "two",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1011,
                     "name": "SOLID Principles for Application",
                     "inputname": "two",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1011,
                     "name": "Single Page Application",
                     "inputname": "two",
                     "isAnswer": true
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1011,
                     "name": "None of the above",
                     "inputname": "two",
                     "isAnswer": false
@@ -90,28 +90,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1012,
                     "name": "dim",
                     "inputname": "three",
                     "isAnswer": true
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1012,
                     "name": "let",
                     "inputname": "three",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1012,
                     "name": "const",
                     "inputname": "three",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1012,
                     "name": "var",
                     "inputname": "three",
                     "isAnswer": false
@@ -131,28 +131,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1013,
                     "name": "Displayed text in non-JavaScript browsers.",
                     "inputname": "four",
                     "isAnswer": true
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1013,
                     "name": "Prevents Script Execution",
                     "inputname": "four",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1013,
                     "name": "Requests user not to run scripts",
                     "inputname": "four",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1013,
                     "name": "None of the above",
                     "inputname": "four",
                     "isAnswer": false
@@ -171,28 +171,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1014,
                     "name": "alertBox(\"Hello World\");",
                     "inputname": "five",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1014,
                     "name": "msgBox(\"Hello World\");",
                     "inputname": "five",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1014,
                     "name": "display 'Hello World'",
                     "inputname": "five",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1014,
                     "name": "alert('Hello World');",
                     "inputname": "five",
                     "isAnswer": true
@@ -211,28 +211,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1015,
                     "name": "Angular",
                     "inputname": "six",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1015,
                     "name": "Ember",
                     "inputname": "six",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1015,
                     "name": ".Net Core",
                     "inputname": "six",
                     "isAnswer": true
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1015,
                     "name": "React",
                     "inputname": "six",
                     "isAnswer": false
@@ -251,28 +251,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1016,
                     "name": "concat",
                     "inputname": "seven",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1016,
                     "name": "filter",
                     "inputname": "seven",
                     "isAnswer": true
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1016,
                     "name": "search",
                     "inputname": "seven",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1016,
                     "name": "some",
                     "inputname": "seven",
                     "isAnswer": false
@@ -291,28 +291,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1017,
                     "name": "Angular",
                     "inputname": "eight",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1017,
                     "name": "Express",
                     "inputname": "eight",
                     "isAnswer": true
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1017,
                     "name": "React",
                     "inputname": "eight",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1017,
                     "name": "Kinetic",
                     "inputname": "eight",
                     "isAnswer": false
@@ -331,28 +331,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1018,
                     "name": "response.redirect",
                     "inputname": "nine",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1018,
                     "name": "window.location",
                     "inputname": "nine",
                     "isAnswer": true
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1018,
                     "name": "url.transfer",
                     "inputname": "nine",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1018,
                     "name": "window.redirect",
                     "inputname": "nine",
                     "isAnswer": false
@@ -371,28 +371,28 @@
             "options": [
                 {
                     "id": "A",
-                    "questionId": 1010,
+                    "questionId": 1019,
                     "name": "setTimeout()",
                     "inputname": "ten",
                     "isAnswer": true
                 },
                 {
                     "id": "B",
-                    "questionId": 1010,
+                    "questionId": 1019,
                     "name": "delayMethod()",
                     "inputname": "ten",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
-                    "questionId": 1010,
+                    "questionId": 1019,
                     "name": "evalLater()",
                     "inputname": "ten",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
-                    "questionId": 1010,
+                    "questionId": 1019,
                     "name": "timer()",
                     "inputname": "ten",
                     "isAnswer": false
