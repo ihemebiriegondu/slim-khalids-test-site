@@ -1,0 +1,408 @@
+{
+    "id": 1,
+    "name": "Javascript Quiz",
+    "description": "Javascript Quiz (contains web develepment, Javascript, ES 5/6/7, etc.)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "Inside which HTML element do we put the JavaScript?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "javascript",
+                    "inputname": "one",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "scripting",
+                    "inputname": "one",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "script",
+                    "inputname": "one",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "js",
+                    "inputname": "one",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "What is the full form of SPA",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "Secured and Progressive App",
+                    "inputname": "two",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "SOLID Principles for Application",
+                    "inputname": "two",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "Single Page Application",
+                    "inputname": "two",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "inputname": "two",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Which of these keyword is NOT used to declare a variable in Javascript?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "dim",
+                    "inputname": "three",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "let",
+                    "inputname": "three",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "const",
+                    "inputname": "three",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "var",
+                    "inputname": "three",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "inputname": "three",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "What does the <noscript> tag used for?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "Displayed text in non-JavaScript browsers.",
+                    "inputname": "four",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "Prevents Script Execution",
+                    "inputname": "four",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "Requests user not to run scripts",
+                    "inputname": "four",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "inputname": "four",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "How do you write \"Hello World\" in an alert box?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "alertBox(\"Hello World\");",
+                    "inputname": "five",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "msgBox(\"Hello World\");",
+                    "inputname": "five",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "display 'Hello World'",
+                    "inputname": "five",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "alert('Hello World');",
+                    "inputname": "five",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "Which is NOT the Javascript framework/library?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "Angular",
+                    "inputname": "six",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "Ember",
+                    "inputname": "six",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": ".Net Core",
+                    "inputname": "six",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "React",
+                    "inputname": "six",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Which method is used to return a copy of filtered array when predicate is passed?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "concat",
+                    "inputname": "seven",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "filter",
+                    "inputname": "seven",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "search",
+                    "inputname": "seven",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "some",
+                    "inputname": "seven",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Which of the following is popular server side Javascript framework mainly used to write API?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "Angular",
+                    "inputname": "eight",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "Express",
+                    "inputname": "eight",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "React",
+                    "inputname": "eight",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "Kinetic",
+                    "inputname": "eight",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Which method is best suited to redirect to another url?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "response.redirect",
+                    "inputname": "nine",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "window.location",
+                    "inputname": "nine",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "url.transfer",
+                    "inputname": "nine",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "window.redirect",
+                    "inputname": "nine",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Which method is used to execute another method in a given time interval?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1010,
+                    "name": "setTimeout()",
+                    "inputname": "ten",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1010,
+                    "name": "delayMethod()",
+                    "inputname": "ten",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1010,
+                    "name": "evalLater()",
+                    "inputname": "ten",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1010,
+                    "name": "timer()",
+                    "inputname": "ten",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

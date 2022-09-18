@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import { IoPersonCircleOutline } from 'react-icons/io5'
 import { GiAlarmClock } from 'react-icons/gi'
 
-import PTquestions from '../JSON/UnilagQ.json'
 import isEmpty from '../components/IsEmpty'
 import "../css/test.css"
 
@@ -11,7 +10,7 @@ class Unilag extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            PTquestions,
+            //PTquestions,
             currentQuestion: {},
             nextQuestion: {},
             previousQuestion: {},

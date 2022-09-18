@@ -3,7 +3,7 @@ import Login from "./Pages/Login";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Unilag from "./Pages/Unilag";
-import UnilagPQ from "./Pages/UnilagPQ";
+import UnilagPu from "./Pages/UnilagPu";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Login />} />
-            <Route path="/unilagtest" element={<UnilagPQ />} />
             <Route path="/unilag" element={<Unilag />} />
+            <Route path="/unilagtest" element={<UnilagPu />} />
           </Routes>
         </Router>
     </div>

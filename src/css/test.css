@@ -78,6 +78,10 @@
     outline: none !important;
 }
 
+.testOption input[type="radio"]:hover {
+    cursor: pointer;
+}
+
 .testOption input[type="radio"]:checked {
     background-color: darkorange;
 }
