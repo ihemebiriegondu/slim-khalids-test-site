@@ -9,12 +9,12 @@ import "../css/test.css"
 import '../css/reviews.css'
 import Results from '../components/Results';
 
-const onConfirmRefresh = function (event) {
+/*const onConfirmRefresh = function (event) {
     event.preventDefault();
     return event.returnValue = "Are you sure you want to leave the page?";
 }
 
-window.addEventListener("beforeunload", onConfirmRefresh, { capture: true });
+window.addEventListener("beforeunload", onConfirmRefresh, { capture: true });*/
 
 
 let arrayQuestions = MyQuestions.questions
