@@ -99,9 +99,8 @@ class UnilagPu extends Component {
                 }
             })
             const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
-            console.log(newTotalScore)
-            localStorage.setItem("UserTotalScore", newTotalScore)
-
+            
+            document.getElementById("score").textContent = newTotalScore
             document.querySelector(".mainResultDiv").classList.add("show");
         }
 
