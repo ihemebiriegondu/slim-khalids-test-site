@@ -7,7 +7,6 @@ const chooseUniversity = (e) => {
     const select = document.getElementById("select").value;
 
     if (select === "UNILAG") {
-        window.close();
         window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
         //document.getElementById("universityform").action = "/unilagtest";
     } else if (select === "YABATECH") {
