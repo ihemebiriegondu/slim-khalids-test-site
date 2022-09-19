@@ -116,6 +116,10 @@
 
 
 @media (max-width: 768px) {
+    .school-name h3 {
+        font-size: 18px !important;
+    }
+
     .timer-div .time {
         font-weight: 500 !important;
         font-size: 20px;
@@ -141,6 +145,11 @@
 }
 
 @media (max-width: 500px) {
+    .school-name h3 {
+        font-weight: 500;
+        font-size: 16px !important;
+    }
+
     .timer-container-div {
         flex-direction: column !important;
         align-items: flex-start !important;

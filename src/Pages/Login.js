@@ -56,7 +56,7 @@ const Login = () => {
 
     return (
         <div className='mainLoginPage'>
-            <img src={bigLogo} alt="" className='mainLoginImg' />
+            <img src={bigLogo} alt="" className='mainLoginImg' /> 
             <div className='login-backdrop'>
                 <div className='mainForm'>
                     <form className='shadow-lg' id='loginform' action='' onSubmit={(event) => validateLoginForm(event)}>

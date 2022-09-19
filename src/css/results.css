@@ -1,0 +1,20 @@
+.mainResultDiv {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: none;
+}
+
+.mainResultDiv.show {
+    display: block;
+}
+
+.mainForm .result {
+    background-color: blue;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+}

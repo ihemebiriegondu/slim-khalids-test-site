@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
 import MyQuestions from '../JSON/Unilag.json'
 
 import { GiAlarmClock } from 'react-icons/gi'
 
 import "../css/test.css"
-import Review from '../components/Review'
+import '../css/reviews.css'
+import Results from '../components/Results';
 
 let arrayQuestions = MyQuestions.questions
 //select the question randomly from json questions
@@ -27,6 +30,11 @@ class UnilagPu extends Component {
         };
     }
 
+    //setting state for the offcanvas
+    state = {
+        show: false
+    }
+
     //To keep selected options after pressing the next or previous button
     onAnswer(question, option) {
         let quiz = slicedQuestions;
@@ -45,12 +53,16 @@ class UnilagPu extends Component {
         //console.log(q)
 
         if (q.questionTypeId === 1) {
-            console.log("somethgh")
             q.options.forEach((x) => { x.selected = false; });
         }
         q.options.find(x => x.id === option.id).selected = true;
 
         //this.props.onAnswer(quiz);
+    }
+
+    //checking if an option is selected for the review
+    isAnswered = (q) => {
+        return q.options.some(x => x.selected) ? 'Answered' : 'Not Answered';
     }
 
     render() {
@@ -60,6 +72,27 @@ class UnilagPu extends Component {
         let quiz = slicedQuestions;
 
         //let 
+        const handleShow = () => { this.setState({ show: true }) }
+        const handleHide = () => { this.setState({ show: false }) }
+
+        const showFinalResult = () => {
+            let questions = slicedQuestions;
+            let totalScore = 0;
+ 
+            questions.forEach(question => {
+                //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
+                question.isCorrect = question.options.every(x => x.selected === x.isAnswer); 
+                
+                //checking if the selected options is true
+                if (question.isCorrect === true) {
+
+                    //adding to the total score
+                    totalScore += 1;
+                }
+            })
+
+            localStorage.setItem("UserTotalScore", totalScore)
+        }
 
 
         return (
@@ -75,7 +108,7 @@ class UnilagPu extends Component {
                                 <GiAlarmClock className='display-5 me-2' />
                                 <span className='time'>00:40:00</span>
                             </div>
-                            <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button">Submit</button>
+                            <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => {showFinalResult()}}>Submit</button>
                         </div>
                     </div>
                 </div>
@@ -106,10 +139,30 @@ class UnilagPu extends Component {
                             <button className='btn directionBtn px-sm-5 px-4 py-sm-3 py-2' id="next" onClick={() => { if (this.state.index < (quiz.length - 1)) { this.setState({ index: this.state.index + 1 }) } }}>Next</button>
                         </div>
                         <div className='text-center'>
-                            <Review />
+                            <button onClick={() => { handleShow() }} className='btn mt-5 directionBtn px-sm-5 px-4 py-sm-3 py-2 w-25' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" id="review">Review</button>
                         </div>
                     </div>
+
+                    {/*offcanvas for displaying the review of the test*/}
+
+                    <Offcanvas show={this.state.show} onHide={handleHide}>
+                        <Offcanvas.Header closeButton>
+                            <Offcanvas.Title>Review Quiz </Offcanvas.Title>
+                        </Offcanvas.Header>
+                        <Offcanvas.Body>
+                            <div className="row row-cols-5 text-center">
+                                {slicedQuestions.map((q, index) =>
+                                    <div key={q.id} className="cursor-pointer">
+                                        <div id={index} onClick={(e) => { (this.setState({ index: parseInt(e.target.id, quiz.length) })); handleHide() }} className={`p-2 mb-2 ${this.isAnswered(q) === 'Answered' ? 'answered-review' : 'warning-review'}`}>{index + 1}{/*. {this.isAnswered(q)}*/}</div>
+                                    </div>
+                                )}
+                            </div>
+                        </Offcanvas.Body>
+                    </Offcanvas>
                 </main>
+
+                {/*showing the results over the main page, to prevent going back to the test */}
+                <Results className="" />
             </div>
         );
     }
