@@ -44,7 +44,7 @@ const Login = () => {
             email.classList.remove("is-invalid")
         }
         else if (isEmail === true && password.value === "12345") {
-            document.getElementById("loginform").action = "/unilagtest";
+            document.getElementById("loginform").action = "/pickuniversity";
 
             document.querySelector(".email-form-floating").classList.remove("invalid-form")
             email.classList.remove("is-invalid")

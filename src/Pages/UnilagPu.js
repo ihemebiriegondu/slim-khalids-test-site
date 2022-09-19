@@ -9,6 +9,14 @@ import "../css/test.css"
 import '../css/reviews.css'
 import Results from '../components/Results';
 
+const onConfirmRefresh = function (event) {
+    event.preventDefault();
+    return event.returnValue = "Are you sure you want to leave the page?";
+}
+
+window.addEventListener("beforeunload", onConfirmRefresh, { capture: true });
+
+
 let arrayQuestions = MyQuestions.questions
 //select the question randomly from json questions
 let newQuestions = arrayQuestions
@@ -78,11 +86,11 @@ class UnilagPu extends Component {
         const showFinalResult = () => {
             let questions = slicedQuestions;
             let totalScore = 0;
- 
+
             questions.forEach(question => {
                 //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
-                question.isCorrect = question.options.every(x => x.selected === x.isAnswer); 
-                
+                question.isCorrect = question.options.every(x => x.selected === x.isAnswer);
+
                 //checking if the selected options is true
                 if (question.isCorrect === true) {
 
@@ -90,8 +98,11 @@ class UnilagPu extends Component {
                     totalScore += 1;
                 }
             })
+            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
+            console.log(newTotalScore)
+            localStorage.setItem("UserTotalScore", newTotalScore)
 
-            localStorage.setItem("UserTotalScore", totalScore)
+            document.querySelector(".mainResultDiv").classList.add("show");
         }
 
 
@@ -108,7 +119,7 @@ class UnilagPu extends Component {
                                 <GiAlarmClock className='display-5 me-2' />
                                 <span className='time'>00:40:00</span>
                             </div>
-                            <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => {showFinalResult()}}>Submit</button>
+                            <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,9 @@ import Login from "./Pages/Login";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UnilagPu from "./Pages/UnilagPu";
+import University from "./components/University";
+import Yabatech from "./Pages/Yabatech";
+import Unilorin from "./Pages/Unilorin";
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Login />} />
+            <Route path="/pickuniversity" element={<University />} />
             <Route path="/unilagtest" element={<UnilagPu />} />
+            <Route path="/yabatechtest" element={<Yabatech />} />
+            <Route path="/unilorintest" element={<Unilorin />} />
           </Routes>
         </Router>
     </div>

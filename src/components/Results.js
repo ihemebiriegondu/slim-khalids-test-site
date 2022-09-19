@@ -6,15 +6,18 @@ import '../css/results.css'
 
 export default class Results extends Component {
     render() {
+        let participantName = localStorage.getItem("participantName");
+        let newTotalScore = localStorage.getItem("UserTotalScore");
+
         return (
-            <div className='mainResultDiv show'>
+            <div className='mainResultDiv'>
                 <img src={bigLogo} alt="" className='mainLoginImg' />
                 <div className='login-backdrop'>
                     <div className='mainForm'>
                         <div className='result'>
-                            <h3>Well-done <BsEmojiSmile /></h3>
-                            <p>Name: Egondu</p>
-                            <p>Score: 24 out of 30</p>
+                            <h3 className='text-center mb-5'>Well-done <BsEmojiSmile className='text-warning' /></h3>
+                            <p className='fs-5'>Name: {participantName}</p>
+                            <p className='fs-5'>Score: {newTotalScore} out of 30</p>
                         </div>
                     </div>
                 </div>
