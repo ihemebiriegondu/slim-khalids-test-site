@@ -36,7 +36,7 @@ class UnilagPu extends Component {
             index: 0,
             size: 1,
             time: {},
-            seconds: 1800
+            seconds: /*1800*/200
         };
         this.timer = 0;
         this.startTimer = this.startTimer.bind(this);
