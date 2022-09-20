@@ -1,7 +1,7 @@
 {
     "id": 1,
-    "name": "Javascript Quiz",
-    "description": "Javascript Quiz (contains web develepment, Javascript, ES 5/6/7, etc.)",
+    "name": "Unilag quiz",
+    "description": "Unilag post utem exam questions",
     "questions": [
         {
             "id": 1010,
@@ -406,3 +406,6 @@
         }
     ]
 }
+
+
+
