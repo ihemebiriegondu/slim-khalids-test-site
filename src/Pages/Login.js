@@ -6,6 +6,8 @@ import Participants from "../JSON/Participants.json"
 
 import "../css/login.css"
 
+localStorage.clear()
+
 const Login = () => {
 
     if (localStorage.getItem("attempt") === null) {
