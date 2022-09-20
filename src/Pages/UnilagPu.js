@@ -99,10 +99,13 @@ class UnilagPu extends Component {
                 }
             })
             const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
-            
+
             document.getElementById("score").textContent = newTotalScore
             document.querySelector(".mainResultDiv").classList.add("show");
         }
+
+        let newTestSecond = localStorage.getItem("newSeconds")
+        let newTestMinute = localStorage.getItem("newMinutes")
 
 
         return (
@@ -116,7 +119,7 @@ class UnilagPu extends Component {
                         <div className='timer-div d-flex align-items-center'>
                             <div className='d-flex align-items-center me-4'>
                                 <GiAlarmClock className='display-5 me-2' />
-                                <span className='time'>00:40:00</span>
+                                <span className='time'>{newTestMinute} : {newTestSecond}</span>
                             </div>
                             <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>
