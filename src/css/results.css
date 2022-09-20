@@ -4,7 +4,7 @@
     bottom: 0;
     width: 100%;
     background-color: white;
-    display: none;
+    display: none; 
 }
 
 .mainResultDiv.show {
@@ -12,9 +12,21 @@
 }
 
 .mainForm .result {
-    background-color: blue;
+    background-color: rgba(182, 176, 176, 0.7);
     padding: 4rem 2rem;
     border-radius: 10px;
     width: 100%;
     color: white;
+}
+
+.mainForm button {
+    background-color: orange !important;
+}
+
+.mainForm button:hover {
+    background-color: darkorange !important;
+}
+
+.retake-btn {
+    display: none;
 }

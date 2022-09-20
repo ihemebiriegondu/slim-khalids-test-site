@@ -15,9 +15,13 @@ export default class Results extends Component {
                 <div className='login-backdrop'>
                     <div className='mainForm'>
                         <div className='result'>
-                            <h3 className='text-center mb-5'>Well-done <BsEmojiSmile className='text-warning' /></h3>
+                            <h3 className='text-center mb-5 fw-bold'>Well-done <BsEmojiSmile className='text-warning fw-bold' /></h3>
                             <p className='fs-5'>Name: {participantName}</p>
                             <p className='fs-5'>Score: <span id='score'></span> out of 30</p>
+
+                            <div className='text-center mt-5 retake-btn'>
+                                <button className='btn text-white rounded rounded-2 px-5 py-3' onClick={window.open('https://slim-khalid-practice.netlify.app/instructions?', '_self')}>Retake</button>
+                            </div>
                         </div>
                     </div>
                 </div>

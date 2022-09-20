@@ -34,14 +34,95 @@ class Yabatech extends Component {
         super(props);
         this.state = {
             index: 0,
-            size: 1
+            size: 1,
+            time: {},
+            seconds: 1800
         };
+        this.timer = 0;
+        this.startTimer = this.startTimer.bind(this);
+        this.countDown = this.countDown.bind(this);
     }
+
 
     //setting state for the offcanvas
     state = {
         show: false
     }
+
+    //timer countdown
+    secondsToTime(secs) {
+        let hours = parseInt(secs / (60 * 60));
+
+        let divisor_for_minutes = secs % (60 * 60);
+        let minutes = parseInt(divisor_for_minutes / 60);
+
+        let divisor_for_seconds = divisor_for_minutes % 60;
+        let seconds = Math.ceil(divisor_for_seconds);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        let obj = {
+            "h": hours,
+            "m": minutes,
+            "s": seconds
+        };
+        return obj;
+    }
+
+    componentDidMount() {
+        let timeLeftVar = this.secondsToTime(this.state.seconds);
+        this.setState({ time: timeLeftVar });
+    }
+
+    startTimer() {
+        if (this.timer === 0 && this.state.seconds > 0) {
+            this.timer = setInterval(this.countDown, 1000);
+        }
+    }
+
+    countDown() {
+        // Remove one second, set state so a re-render happens.
+        let seconds = this.state.seconds - 1;
+        this.setState({
+            time: this.secondsToTime(seconds),
+            seconds: seconds,
+        });
+        document.getElementById("timmmer").classList.remove("late-time")
+        document.getElementById("clock-timmmer").classList.remove("late-time")
+
+        if (seconds < 60) {
+            document.getElementById("timmmer").classList.add("late-time");
+            document.getElementById("clock-timmmer").classList.add("late-time")
+        }
+
+        // Check if we're at zero.
+        if (seconds === 0) {
+            clearInterval(this.timer);
+
+            let questions = slicedQuestions;
+            let totalScore = 0;
+
+            questions.forEach(question => {
+                //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
+                question.isCorrect = question.options.every(x => x.selected === x.isAnswer);
+
+                //checking if the selected options is true
+                if (question.isCorrect === true) {
+
+                    //adding to the total score
+                    totalScore += 1;
+                }
+            })
+            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
+
+            document.getElementById("score").textContent = newTotalScore
+            document.querySelector(".mainResultDiv").classList.add("show");
+        }
+        /*{this.state.time.m} s: {this.state.time.s} */
+    }
+
+
 
     //To keep selected options after pressing the next or previous button
     onAnswer(question, option) {
@@ -99,15 +180,13 @@ class Yabatech extends Component {
                 }
             })
             const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
-            console.log(newTotalScore)
-            localStorage.setItem("UserTotalScore", newTotalScore)
 
+            document.getElementById("score").textContent = newTotalScore
             document.querySelector(".mainResultDiv").classList.add("show");
         }
 
-
         return (
-            <div className='mainTestPage'>
+            <div className='mainTestPage' onLoad={this.startTimer}>
                 <div className='school-name mb-0 py-1 px-4'>
                     <h3 className='text-center m-0'>Yabatech Post-UTME practice questions</h3>
                 </div>
@@ -116,8 +195,8 @@ class Yabatech extends Component {
                     <div className='col-11 timer-container-div m-auto d-flex justify-content-between'>
                         <div className='timer-div d-flex align-items-center'>
                             <div className='d-flex align-items-center me-4'>
-                                <GiAlarmClock className='display-5 me-2' />
-                                <span className='time'>00:40:00</span>
+                                <GiAlarmClock className='display-5 me-2 my-clock' id='clock-timmmer' />
+                                <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
                             <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>
@@ -178,5 +257,4 @@ class Yabatech extends Component {
         );
     }
 }
-
 export default Yabatech;

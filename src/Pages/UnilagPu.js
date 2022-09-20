@@ -36,7 +36,7 @@ class UnilagPu extends Component {
             index: 0,
             size: 1,
             time: {},
-            seconds: /*1800*/150
+            seconds: 1800
         };
         this.timer = 0;
         this.startTimer = this.startTimer.bind(this);
@@ -91,7 +91,7 @@ class UnilagPu extends Component {
         document.getElementById("timmmer").classList.remove("late-time")
         document.getElementById("clock-timmmer").classList.remove("late-time")
 
-        if (seconds < 120) {
+        if (seconds < 60) {
             document.getElementById("timmmer").classList.add("late-time");
             document.getElementById("clock-timmmer").classList.add("late-time")
         }
