@@ -118,8 +118,8 @@ export default class Instructions extends Component {
                     </ul>
 
                     <button className='btn start-btn rounded rounded-0 px-5 py-3 mt-4 mb-5' id='' onClick={(e) => {
-                        chooseUniversity(e)
                         increase()
+                        chooseUniversity(e)
                     }
                     }>Start</button>
                 </div>
