@@ -14,9 +14,7 @@ const Instructions = () => {
             document.getElementById("attempt").textContent = Newattempt;
             localStorage.setItem("attempt", Newattempt)
 
-            alert(localStorage.getItem("attempt"))
-
-            /*if (select === "UNILAG") {
+            if (select === "UNILAG") {
                 window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
                 //document.getElementById("universityform").action = "/unilagtest";
             } else if (select === "YABATECH") {
@@ -27,12 +25,12 @@ const Instructions = () => {
                 //document.getElementById("universityform").action = "/unilorintest";
             } else {
                 e.preventDefault();
-            }*/
+            }
         }
 
         else {
            alert("You have no attempt left")
-           window.open('https://slim-khalid-practice.netlify.app')
+           window.open('https://slim-khalid-practice.netlify.app', '_self', 'toolbar=0,location=0,menubar=0')
         }
     }
 

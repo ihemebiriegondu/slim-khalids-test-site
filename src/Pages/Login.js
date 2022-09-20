@@ -14,7 +14,9 @@ const Login = () => {
     } else if (localStorage.getItem("attempt") === 0) {
         localStorage.setItem("attempt", -3);
     }
-    console.log(localStorage.getItem("attempt"))
+    
+
+    
     const validateLoginForm = (event) => {
 
         const email = document.getElementById("email");
