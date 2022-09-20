@@ -36,7 +36,7 @@ class UnilagPu extends Component {
             index: 0,
             size: 1,
             time: {},
-            seconds: 1800
+            seconds: /*1800*/150
         };
         this.timer = 0;
         this.startTimer = this.startTimer.bind(this);
@@ -195,7 +195,7 @@ class UnilagPu extends Component {
                     <div className='col-11 timer-container-div m-auto d-flex justify-content-between'>
                         <div className='timer-div d-flex align-items-center'>
                             <div className='d-flex align-items-center me-4'>
-                                <GiAlarmClock className='display-5 me-2' id='clock-timmmer' />
+                                <GiAlarmClock className='display-5 me-2 my-clock' id='clock-timmmer' />
                                 <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
                             <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
