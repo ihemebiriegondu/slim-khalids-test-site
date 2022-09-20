@@ -10,7 +10,7 @@ export default class Results extends Component {
         //let newTotalScore = localStorage.getItem("UserTotalScore");
 
         let allowRetake = () => {
-            
+            window.open('https://slim-khalid-practice.netlify.app/instructions?', '_self');
         }
 
         return (

@@ -34,12 +34,10 @@
 
 @keyframes showBtn {
     0% {
-        display: none;
         visibility: hidden;
     }
 
     100% {
-        display: block;
         visibility: block;
     }
 }
