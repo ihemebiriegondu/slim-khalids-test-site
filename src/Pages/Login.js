@@ -6,7 +6,7 @@ import Participants from "../JSON/Participants.json"
 
 import "../css/login.css"
 
-localStorage.clear()
+//localStorage.clear()
 
 const Login = () => {
 
@@ -35,32 +35,39 @@ const Login = () => {
                 //email for removal in instruction page
                 localStorage.setItem("userEmail", email.value)
                 //let participantName = localStorage.getItem("participantName")
-                const participantpasscode = Participants[i].Participant.passcode;
-                console.log(participantpasscode)
+                
+
+                localStorage.setItem("participantpasscode", Participants[i].Participant.passcode)
+                //console.log(participantpasscode)
             }
         }
 
+
         if (localStorage.getItem("attempt") > 0) {
-            if (isEmail === false && password.value !== "12345") {
+
+            let participantpasscode = localStorage.getItem("participantpasscode")
+            console.log(participantpasscode)
+
+            if (isEmail === false && password.value !== participantpasscode) {
                 event.preventDefault();
                 document.querySelector(".email-form-floating").classList.add("invalid-form")
                 email.classList.add("is-invalid")
                 document.querySelector(".password-form-floating").classList.add("invalid-form")
                 password.classList.add("is-invalid")
-            } else if ((isEmail === false) && password.value === "12345") {
+            } else if ((isEmail === false) && password.value === participantpasscode) {
                 event.preventDefault();
                 document.querySelector(".email-form-floating").classList.add("invalid-form")
                 email.classList.add("is-invalid")
                 document.querySelector(".password-form-floating").classList.remove("invalid-form")
                 password.classList.remove("is-invalid")
-            } else if ((password.value !== "12345") && isEmail === true) {
+            } else if ((password.value !== participantpasscode) && isEmail === true) {
                 event.preventDefault();
                 document.querySelector(".password-form-floating").classList.add("invalid-form")
                 password.classList.add("is-invalid")
                 document.querySelector(".email-form-floating").classList.remove("invalid-form")
                 email.classList.remove("is-invalid")
             }
-            else if (isEmail === true && password.value === "12345") {
+            else if (isEmail === true && password.value === participantpasscode) {
                 document.getElementById("loginform").action = "/pickuniversity";
 
                 document.querySelector(".email-form-floating").classList.remove("invalid-form")
