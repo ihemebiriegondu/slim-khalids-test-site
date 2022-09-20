@@ -3,33 +3,24 @@ import bigLogo from '../images/biglogo.png'
 
 import "../css/login.css"
 
-const chooseUniversity = (e) => {
+const assignUniversity = () => {
     const select = document.getElementById("select").value;
-
-    if (select === "UNILAG") {
-        window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
-        //document.getElementById("universityform").action = "/unilagtest";
-    } else if (select === "YABATECH") {
-        window.open('https://slim-khalid-practice.netlify.app/yabatechtest?', '_blank', 'toolbar=0,location=0,menubar=0');
-        //document.getElementById("universityform").action = "/yabatechtest";
-    } else if (select === "UNILORIN") {
-        window.open('https://slim-khalid-practice.netlify.app/unilorintest?', '_blank', 'toolbar=0,location=0,menubar=0');
-        //document.getElementById("universityform").action = "/unilorintest";
-    } else {
-        e.preventDefault();
-    }
+    localStorage.setItem("university-choice", select);
+    document.getElementById("universityform").action = "/instructions";
 }
 
 const University = () => {
+    let participantName = localStorage.getItem("participantName");
+
     return (
         <div className='mainLoginPage'>
             <img src={bigLogo} alt="" className='mainLoginImg' />
             <div className='login-backdrop'>
                 <div className='mainForm'>
-                    <form className='shadow-lg' id='universityform' action='' onSubmit={(e) => { chooseUniversity(e); window.close(); }}>
-                        <p className='m-0 mb-4 fw-bold text-center'>Welcome to Slim Khalid's weekly test</p>
-                        <p className='m-0 mb-2'>To begin kindly select your preferred university</p>
-                        <select id='select' className="form-select form-select-lg mb-5" aria-label=".form-select-lg example">
+                    <form className='shadow-lg' id='universityform' action='' onSubmit={() => assignUniversity()}>
+                        <p className='m-0 mb-4 fw-bold text-center fs-5'>Welcome {participantName}</p>
+                        <p className='m-0 mb-2'>To begin the test kindly select your preferred university</p>
+                        <select id='select' className="form-select form-select-lg mb-5 shadow-none" aria-label=".form-select-lg example">
                             <option selected>Select a university</option>
                             <option value="UNILAG">UNILAG</option>
                             <option value="YABATECH">YABATECH</option>

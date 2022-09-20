@@ -6,6 +6,7 @@ import UnilagPu from "./Pages/UnilagPu";
 import University from "./components/University";
 import Yabatech from "./Pages/Yabatech";
 import Unilorin from "./Pages/Unilorin";
+import Instructions from "./components/Instructions";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/pickuniversity" element={<University />} />
+            <Route path="/instructions" element={<Instructions />} />
             <Route path="/unilagtest" element={<UnilagPu />} />
             <Route path="/yabatechtest" element={<Yabatech />} />
             <Route path="/unilorintest" element={<Unilorin />} />

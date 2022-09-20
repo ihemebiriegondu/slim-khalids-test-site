@@ -21,7 +21,8 @@
 
 .login-backdrop {
     position: absolute;
-    background-color: rgba(182, 176, 176, 0.603);
+    /*background-color: rgba(182, 176, 176, 0.603);*/
+    background-color: rgba(182, 176, 176, 0.103);
     top: 0;
     bottom: 0;
     width: 100%;
@@ -39,7 +40,8 @@
 
 .mainForm form {
     width: 100%;
-    background-color: blue;
+    /*background-color: blue;*/
+    background-color: rgba(182, 176, 176, 0.7);
     padding: 4rem 2rem;
     border-radius: 30px 0 30px 0;
 }
@@ -105,19 +107,19 @@
     border: 3px solid orange !important;
 }
 
-.mainForm form button {
-    background-color: orange;
+.mainForm form button, .start-btn {
+    background-color: orange !important;
     text-transform: uppercase;
     width: 70%;
     font-size: 19px;
-    color: white;
+    color: white !important;
     outline: none !important;
     border: 2px solid orange !important;
     box-shadow: none !important;
     transition: all 0.5s ease-in-out;
 }
 
-.mainForm form button:hover {
+.mainForm form button:hover, .start-btn:hover {
     background-color: darkorange !important;
     color: white !important;
     transition: all 0.5s ease-in-out;
@@ -128,6 +130,14 @@
     font-size: 17px !important;
 }
 
+.instructions-list {
+    line-height: 3;
+    font-size: 18px !important;
+}
+
+.start-btn {
+    width: auto !important;
+}
 
 @media (max-width: 1300px) {
     .mainForm {
@@ -150,6 +160,11 @@
 @media (max-width: 768px) {
     .mainForm {
         width: 80% !important;
+    }
+
+    .instructions-list {
+        line-height: 2;
+        font-size: 18px !important;
     }
 }
 
