@@ -34,14 +34,69 @@ class UnilagPu extends Component {
         super(props);
         this.state = {
             index: 0,
-            size: 1
+            size: 1,
+            time: {},
+            seconds: 2400
         };
+        this.timer = 0;
+        this.startTimer = this.startTimer.bind(this);
+        this.countDown = this.countDown.bind(this);
     }
+
 
     //setting state for the offcanvas
     state = {
         show: false
     }
+
+    //timer countdown
+    secondsToTime(secs) {
+        let hours = parseInt(secs / (60 * 60));
+
+        let divisor_for_minutes = secs % (60 * 60);
+        let minutes = parseInt(divisor_for_minutes / 60);
+
+        let divisor_for_seconds = divisor_for_minutes % 60;
+        let seconds = Math.ceil(divisor_for_seconds);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        let obj = {
+            "h": hours,
+            "m": minutes,
+            "s": seconds
+        };
+        return obj;
+    }
+
+    componentDidMount() {
+        let timeLeftVar = this.secondsToTime(this.state.seconds);
+        this.setState({ time: timeLeftVar });
+    }
+
+    startTimer() {
+        if (this.timer === 0 && this.state.seconds > 0) {
+            this.timer = setInterval(this.countDown, 1000);
+        }
+    }
+
+    countDown() {
+        // Remove one second, set state so a re-render happens.
+        let seconds = this.state.seconds - 1;
+        this.setState({
+            time: this.secondsToTime(seconds),
+            seconds: seconds,
+        });
+
+        // Check if we're at zero.
+        if (seconds === 0) {
+            clearInterval(this.timer);
+        }
+        /*{this.state.time.m} s: {this.state.time.s} */
+    }
+
+
 
     //To keep selected options after pressing the next or previous button
     onAnswer(question, option) {
@@ -104,10 +159,6 @@ class UnilagPu extends Component {
             document.querySelector(".mainResultDiv").classList.add("show");
         }
 
-        let newTestSecond = localStorage.getItem("newSeconds")
-        let newTestMinute = localStorage.getItem("newMinutes")
-
-
         return (
             <div className='mainTestPage'>
                 <div className='school-name mb-0 py-1 px-4'>
@@ -119,7 +170,7 @@ class UnilagPu extends Component {
                         <div className='timer-div d-flex align-items-center'>
                             <div className='d-flex align-items-center me-4'>
                                 <GiAlarmClock className='display-5 me-2' />
-                                <span className='time'>{newTestMinute} : {newTestSecond}</span>
+                                <span className='time'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
                             <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>

@@ -2,67 +2,6 @@ import React, { Component } from 'react'
 
 export default class Instructions extends Component {
 
-
-    constructor() {
-        super();
-        this.state = { time: {}, seconds: 2400 };
-        this.timer = 0;
-        this.startTimer = this.startTimer.bind(this);
-        this.countDown = this.countDown.bind(this);
-    }
-
-    secondsToTime(secs) {
-        let hours = parseInt(secs / (60 * 60));
-
-        let divisor_for_minutes = secs % (60 * 60);
-        let minutes = parseInt(divisor_for_minutes / 60);
-
-        let divisor_for_seconds = divisor_for_minutes % 60;
-        let seconds = Math.ceil(divisor_for_seconds);
-
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-        let obj = {
-            "h": hours,
-            "m": minutes,
-            "s": seconds
-        };
-        return obj;
-    }
-
-    componentDidMount() {
-        let timeLeftVar = this.secondsToTime(this.state.seconds);
-        this.setState({ time: timeLeftVar });
-    }
-
-    startTimer() {
-        if (this.timer === 0 && this.state.seconds > 0) {
-            this.timer = setInterval(this.countDown, 1000);
-        }
-    }
-
-    countDown() {
-        // Remove one second, set state so a re-render happens.
-        let seconds = this.state.seconds - 1;
-        this.setState({
-            time: this.secondsToTime(seconds),
-            seconds: seconds,
-        });
-
-        // Check if we're at zero.
-        if (seconds === 0) {
-            clearInterval(this.timer);
-        }
-
-        //let completeTime = 
-        localStorage.setItem("newMinutes", this.state.time.m);
-        localStorage.setItem("newSeconds", this.state.time.s);
-
-        /*{this.state.time.m} s: {this.state.time.s} */
-    }
-
-
     render() {
         let select = localStorage.getItem("university-choice");
 
@@ -76,7 +15,7 @@ export default class Instructions extends Component {
                 localStorage.setItem("attempt", Newattempt)
 
                 if (select === "UNILAG") {
-                    window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_self', 'toolbar=0,location=0,menubar=0');
+                    window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
                     //document.getElementById("universityform").action = "/unilagtest";
                 } else if (select === "YABATECH") {
                     window.open('https://slim-khalid-practice.netlify.app/yabatechtest?', '_blank', 'toolbar=0,location=0,menubar=0');
@@ -95,11 +34,6 @@ export default class Instructions extends Component {
             }
         }
 
-        const increase = () => {
-            if (this.timer === 0 && this.state.seconds > 0) {
-                this.timer = setInterval(this.countDown, 1000);
-            }
-        }
 
         return (
             <div className='pb-5'>
@@ -118,7 +52,6 @@ export default class Instructions extends Component {
                     </ul>
 
                     <button className='btn start-btn rounded rounded-0 px-5 py-3 mt-4 mb-5' id='' onClick={(e) => {
-                        increase()
                         chooseUniversity(e)
                     }
                     }>Start</button>
