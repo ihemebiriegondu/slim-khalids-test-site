@@ -20,7 +20,7 @@ export default class Results extends Component {
                             <p className='fs-5'>Score: <span id='score'></span> out of 30</p>
 
                             <div className='text-center mt-5 retake-btn'>
-                                <a href='https://slim-khalid-practice.netlify.app/instructions?' className='btn text-white rounded rounded-2 px-5 py-3'>Retake</a>
+                                <a href='https://slim-khalid-practice.netlify.app/instructions?' onClick={window.close()} className='btn text-white rounded rounded-2 px-5 py-3'>Retake</a>
                             </div>
                         </div>
                     </div>
