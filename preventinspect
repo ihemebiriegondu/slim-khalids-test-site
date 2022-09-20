@@ -1,0 +1,2 @@
+in the index.html file i added oncontextmenu="return false" to prevent right click 
+and onkeydown="return false;" onmousedown="return false;" also to the index.html to prevent the use of F12 to inspect
