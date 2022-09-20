@@ -123,7 +123,7 @@ export default class Instructions extends Component {
                     }
                     }>Start</button>
                 </div>
-                <p className='ms-3 text-danger'><span id='attempt'>2</span> attempts left</p>
+                <p className='ms-3 text-danger'><span id='attempt'>2</span> attempts left !</p>
             </div>
         )
     }
