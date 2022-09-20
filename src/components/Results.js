@@ -9,10 +9,6 @@ export default class Results extends Component {
         let participantName = localStorage.getItem("participantName");
         //let newTotalScore = localStorage.getItem("UserTotalScore");
 
-        let allowRetake = () => {
-            window.open('https://slim-khalid-practice.netlify.app/instructions?', '_self');
-        }
-
         return (
             <div className='mainResultDiv'>
                 <img src={bigLogo} alt="" className='mainLoginImg' />
@@ -24,7 +20,7 @@ export default class Results extends Component {
                             <p className='fs-5'>Score: <span id='score'></span> out of 30</p>
 
                             <div className='text-center mt-5 retake-btn'>
-                                <button className='btn text-white rounded rounded-2 px-5 py-3' onClick={allowRetake()}>Retake</button>
+                                <a href='https://slim-khalid-practice.netlify.app/instructions?' className='btn text-white rounded rounded-2 px-5 py-3'>Retake</a>
                             </div>
                         </div>
                     </div>
