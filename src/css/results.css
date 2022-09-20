@@ -28,7 +28,6 @@
 }
 
 .retake-btn {
-    display: none;
     animation-name: showBtn;
     animation-delay: 2s;
 }
