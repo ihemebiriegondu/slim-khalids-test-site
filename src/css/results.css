@@ -19,11 +19,11 @@
     color: white;
 }
 
-.mainForm button {
+.mainForm .btn {
     background-color: orange !important;
 }
 
-.mainForm button:hover {
+.mainForm .btn:hover {
     background-color: darkorange !important;
 }
 
