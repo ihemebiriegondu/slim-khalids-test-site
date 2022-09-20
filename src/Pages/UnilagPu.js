@@ -36,7 +36,7 @@ class UnilagPu extends Component {
             index: 0,
             size: 1,
             time: {},
-            seconds: 2400
+            seconds: 1800
         };
         this.timer = 0;
         this.startTimer = this.startTimer.bind(this);
@@ -88,10 +88,34 @@ class UnilagPu extends Component {
             time: this.secondsToTime(seconds),
             seconds: seconds,
         });
+        document.getElementById("timmmer").classList.remove("late-time")
+
+        if (seconds < 120) {
+            document.getElementById("timmmer").classList.add("late-time");
+        }
 
         // Check if we're at zero.
         if (seconds === 0) {
             clearInterval(this.timer);
+
+            let questions = slicedQuestions;
+            let totalScore = 0;
+
+            questions.forEach(question => {
+                //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
+                question.isCorrect = question.options.every(x => x.selected === x.isAnswer);
+
+                //checking if the selected options is true
+                if (question.isCorrect === true) {
+
+                    //adding to the total score
+                    totalScore += 1;
+                }
+            })
+            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
+
+            document.getElementById("score").textContent = newTotalScore
+            document.querySelector(".mainResultDiv").classList.add("show");
         }
         /*{this.state.time.m} s: {this.state.time.s} */
     }
@@ -170,7 +194,7 @@ class UnilagPu extends Component {
                         <div className='timer-div d-flex align-items-center'>
                             <div className='d-flex align-items-center me-4'>
                                 <GiAlarmClock className='display-5 me-2' />
-                                <span className='time'>{this.state.time.m} : {this.state.time.s}</span>
+                                <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
                             <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>

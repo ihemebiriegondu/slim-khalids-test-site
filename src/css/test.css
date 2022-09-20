@@ -44,6 +44,10 @@
     font-size: 25px;
 }
 
+.timer-div .late-time {
+    color: red !important;
+}
+
 .timer-div button {
     color: white;
     text-transform: uppercase;
