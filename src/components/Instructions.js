@@ -76,7 +76,7 @@ export default class Instructions extends Component {
                 localStorage.setItem("attempt", Newattempt)
 
                 if (select === "UNILAG") {
-                    window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                    window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_self', 'toolbar=0,location=0,menubar=0');
                     //document.getElementById("universityform").action = "/unilagtest";
                 } else if (select === "YABATECH") {
                     window.open('https://slim-khalid-practice.netlify.app/yabatechtest?', '_blank', 'toolbar=0,location=0,menubar=0');
