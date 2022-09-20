@@ -4,7 +4,7 @@
     bottom: 0;
     width: 100%;
     background-color: white;
-    display: none; 
+    display: none;
 }
 
 .mainResultDiv.show {
@@ -29,4 +29,18 @@
 
 .retake-btn {
     display: none;
+    animation-name: showBtn;
+    animation-delay: 2s;
+}
+
+@keyframes showBtn {
+    0% {
+        display: none;
+        visibility: hidden;
+    }
+
+    100% {
+        display: block;
+        visibility: block;
+    }
 }
