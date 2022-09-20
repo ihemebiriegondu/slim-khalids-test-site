@@ -160,7 +160,7 @@ class UnilagPu extends Component {
         }
 
         return (
-            <div className='mainTestPage'>
+            <div className='mainTestPage' onLoad={this.startTimer}>
                 <div className='school-name mb-0 py-1 px-4'>
                     <h3 className='text-center m-0'>Unilag Post-UTME practice questions</h3>
                 </div>
