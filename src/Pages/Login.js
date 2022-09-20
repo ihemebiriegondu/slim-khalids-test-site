@@ -6,7 +6,7 @@ import Participants from "../JSON/Participants.json"
 
 import "../css/login.css"
 
-//localStorage.clear()
+localStorage.clear()
 
 const Login = () => {
 
@@ -35,6 +35,8 @@ const Login = () => {
                 //email for removal in instruction page
                 localStorage.setItem("userEmail", email.value)
                 //let participantName = localStorage.getItem("participantName")
+                const participantpasscode = Participants[i].Participant.passcode;
+                console.log(participantpasscode)
             }
         }
 

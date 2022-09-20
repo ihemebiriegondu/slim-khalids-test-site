@@ -3,21 +3,21 @@
         "Participant": {
             "name": "Egondu",
             "email": "ihemebiriegondu@gmail.com",
-            "trials": 1
+            "passcode": "12345"
         }
     },
     {
         "Participant": {
             "name": "John",
             "email": "john@gmail.com",
-            "trials": 1
+            "passcode": "00000"
         }
     },
     {
         "Participant": {
             "name": "Another",
             "email": "another@gmail.com",
-            "trials": 1
+            "passcode": "22222"
         }
     }
 ]
