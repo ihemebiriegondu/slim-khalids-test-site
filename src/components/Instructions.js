@@ -14,14 +14,14 @@ export default class Instructions extends Component {
                 document.getElementById("attempt").textContent = Newattempt;
                 localStorage.setItem("attempt", Newattempt)
 
-                if (select === "UNILAG") {
-                    window.open('https://slim-khalid-practice.netlify.app/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                if (select === "UNILAG") { 
+                    window.open('https://quizzes.slimkhalid.com.ng/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
                     //document.getElementById("universityform").action = "/unilagtest";
                 } else if (select === "YABATECH") {
-                    window.open('https://slim-khalid-practice.netlify.app/yabatechtest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                    window.open('https://quizzes.slimkhalid.com.ng/yabatechtest?', '_blank', 'toolbar=0,location=0,menubar=0');
                     //document.getElementById("universityform").action = "/yabatechtest";
                 } else if (select === "UNILORIN") {
-                    window.open('https://slim-khalid-practice.netlify.app/unilorintest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                    window.open('https://quizzes.slimkhalid.com.ng/unilorintest?', '_blank', 'toolbar=0,location=0,menubar=0');
                     //document.getElementById("universityform").action = "/unilorintest";
                 } else {
                     e.preventDefault();
@@ -30,7 +30,7 @@ export default class Instructions extends Component {
 
             else {
                 alert("You have no attempt left")
-                window.open('https://slim-khalid-practice.netlify.app', '_self', 'toolbar=0,location=0,menubar=0')
+                window.open('https://quizzes.slimkhalid.com.ng', '_self', 'toolbar=0,location=0,menubar=0')
             }
         }
 
