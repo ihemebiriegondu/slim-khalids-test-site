@@ -1603,6 +1603,1606 @@
                 "name": "English mcq",
                 "isActive": true
             }
+        },
+        {
+            "id": 2010,
+            "name": "Who is the current director general of WHO?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2010,
+                    "name": "Dr. Tedros Adhanom Ghebreyesus",
+                    "inputname": "01",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2010,
+                    "name": "Dr. Ekmeleddin Ihsanoglu",
+                    "inputname": "01",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2010,
+                    "name": "Dr. Prince Salam",
+                    "inputname": "01",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2010,
+                    "name": "Dr. Yousef bin Ahmed Al-Othaimeen",
+                    "inputname": "01",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2011,
+            "name": "The official languages of NATO are",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2011,
+                    "name": "English and French",
+                    "inputname": "02",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2011,
+                    "name": "English and Spanish",
+                    "inputname": "02",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2011,
+                    "name": "English and German",
+                    "inputname": "02",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2011,
+                    "name": "English, French and German",
+                    "inputname": "02",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2012,
+            "name": "Which country has the largest coal reserves?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2012,
+                    "name": "United States",
+                    "inputname": "03",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2012,
+                    "name": "Russia",
+                    "inputname": "03",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2012,
+                    "name": "China",
+                    "inputname": "03",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2012,
+                    "name": "Venezuela",
+                    "inputname": "03",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2013,
+            "name": "Which country is the world's top supplier of weapons?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2013,
+                    "name": "American",
+                    "inputname": "04",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2013,
+                    "name": "Russia",
+                    "inputname": "04",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2013,
+                    "name": "Israel",
+                    "inputname": "04",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2013,
+                    "name": "Germany",
+                    "inputname": "04",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2014,
+            "name": "In which country it is mandatory for all male citizens aged 18-27 to serve 1 year in Armed forces?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2014,
+                    "name": "America",
+                    "inputname": "05",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2014,
+                    "name": "Canada",
+                    "inputname": "05",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2014,
+                    "name": "Russia",
+                    "inputname": "05",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2014,
+                    "name": "Israel",
+                    "inputname": "05",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2015,
+            "name": "Deficiency of Vitamin-A results in __________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2015,
+                    "name": "Night blindness",
+                    "inputname": "06",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2015,
+                    "name": "Rickets",
+                    "inputname": "06",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2015,
+                    "name": "Scurvy",
+                    "inputname": "06",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2015,
+                    "name": "Hair fall",
+                    "inputname": "06",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2016,
+            "name": "2 scores plus 4 dozens multiplied by 14 equals?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2016,
+                    "name": "118",
+                    "inputname": "07",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2016,
+                    "name": "1232",
+                    "inputname": "07",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2016,
+                    "name": "1882",
+                    "inputname": "07",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2016,
+                    "name": "1432",
+                    "inputname": "07",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2017,
+            "name": "What is the difference between 2:45am and 12:32pm?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2017,
+                    "name": "9hrs 47mins",
+                    "inputname": "08",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2017,
+                    "name": "14hrs 10mins",
+                    "inputname": "08",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2017,
+                    "name": "5hrs 25mins",
+                    "inputname": "08",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2018,
+                    "name": "10hrs 17mins",
+                    "inputname": "08",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2019,
+            "name": "In which continent is Mount Everest?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2019,
+                    "name": "Asia",
+                    "inputname": "09",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2019,
+                    "name": "North America",
+                    "inputname": "09",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2019,
+                    "name": "South America",
+                    "inputname": "09",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2019,
+                    "name": "Europe",
+                    "inputname": "09",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2020,
+            "name": "Ballet and Tango are types of",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2020,
+                    "name": "Song",
+                    "inputname": "010",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2020,
+                    "name": "Dance",
+                    "inputname": "010",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2020,
+                    "name": "Cycling",
+                    "inputname": "010",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2020,
+                    "name": "Swimming",
+                    "inputname": "010",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2021,
+            "name": "Which of these animals is not a member of dog family?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2021,
+                    "name": "Jackel",
+                    "inputname": "011",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2021,
+                    "name": "German shepherd",
+                    "inputname": "011",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2021,
+                    "name": "Tiger",
+                    "inputname": "011",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2021,
+                    "name": "Yorkshire terrier",
+                    "inputname": "011",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2022,
+            "name": "An instrument used in finding ways and navigation is called ________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2022,
+                    "name": "Map",
+                    "inputname": "012",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2022,
+                    "name": "GPRS",
+                    "inputname": "012",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2022,
+                    "name": "Compass",
+                    "inputname": "012",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2022,
+                    "name": "Compound",
+                    "inputname": "012",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2023,
+            "name": "The parliament of the United States of America is called _________.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2023,
+                    "name": "House of parliament",
+                    "inputname": "013",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2023,
+                    "name": "National assembly",
+                    "inputname": "013",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2023,
+                    "name": "Congress",
+                    "inputname": "013",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2023,
+                    "name": "Assembly of Law markers",
+                    "inputname": "013",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2024,
+            "name": "The parliament of the United States of Nigeria is called _________.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2024,
+                    "name": "House of parliament",
+                    "inputname": "014",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2024,
+                    "name": "National assembly",
+                    "inputname": "014",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2024,
+                    "name": "Congress",
+                    "inputname": "014",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2024,
+                    "name": "Assembly of Law markers",
+                    "inputname": "014",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2025,
+            "name": "Liz Truss is the ___________ female UK's prime minister",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2025,
+                    "name": "3rd",
+                    "inputname": "015",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2025,
+                    "name": "2nd",
+                    "inputname": "015",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2025,
+                    "name": "4th",
+                    "inputname": "015",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2025,
+                    "name": "1st",
+                    "inputname": "015",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2026,
+            "name": "Who won the Labour party (LP) presidential primary election?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2026,
+                    "name": "Nyesom Wike",
+                    "inputname": "016",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2026,
+                    "name": "Atiku Abubakar",
+                    "inputname": "016",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2026,
+                    "name": "Peter Obi",
+                    "inputname": "016",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2026,
+                    "name": "Shettima",
+                    "inputname": "016",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2027,
+            "name": "The current president of India is",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2027,
+                    "name": "Margaret Thatcher",
+                    "inputname": "017",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2027,
+                    "name": "Droupadi Murmu ",
+                    "inputname": "017",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2027,
+                    "name": "Narendra Modi",
+                    "inputname": "017",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2027,
+                    "name": "Sarvepalli Radhakrishnan",
+                    "inputname": "017",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2028,
+            "name": "The Nigerian national flower is known as",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2028,
+                    "name": "Guinea flower",
+                    "inputname": "018",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2028,
+                    "name": "Coctu spectabilis",
+                    "inputname": "018",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2028,
+                    "name": "Pennisetum purpureum",
+                    "inputname": "018",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2028,
+                    "name": "Napier",
+                    "inputname": "018",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2029,
+            "name": "The Lekki massacre took place on ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2029,
+                    "name": "January 6th, 2020",
+                    "inputname": "019",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2029,
+                    "name": "October 10th, 2020",
+                    "inputname": "019",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2029,
+                    "name": "October 22th, 2020",
+                    "inputname": "019",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2029,
+                    "name": "October 20th, 2020",
+                    "inputname": "019",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2030,
+            "name": "What is 70 years anniversary called?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2030,
+                    "name": "Golden jubilee",
+                    "inputname": "020",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2030,
+                    "name": "Platinum",
+                    "inputname": "020",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2030,
+                    "name": "Sapphire",
+                    "inputname": "020",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2030,
+                    "name": "Ruby",
+                    "inputname": "020",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2031,
+            "name": "What year did Nigeria win its first AFCON?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2031,
+                    "name": "2013",
+                    "inputname": "021",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2031,
+                    "name": "1994",
+                    "inputname": "021",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2031,
+                    "name": "1980",
+                    "inputname": "021",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2031,
+                    "name": "1983",
+                    "inputname": "021",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2032,
+            "name": "Who is the head of a polytechnic?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2032,
+                    "name": "Rector",
+                    "inputname": "022",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2032,
+                    "name": "Provost",
+                    "inputname": "022",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2032,
+                    "name": "Vice chancellor",
+                    "inputname": "022",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2032,
+                    "name": "Registrar",
+                    "inputname": "022",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2033,
+            "name": "The head of judiciary in a country is",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2033,
+                    "name": "Barrister",
+                    "inputname": "023",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2033,
+                    "name": "A SAN",
+                    "inputname": "023",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2033,
+                    "name": "Chief justice",
+                    "inputname": "023",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2033,
+                    "name": "President",
+                    "inputname": "023",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2034,
+            "name": "What is the ratio of 2 feet to 4 yards?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2034,
+                    "name": "2 : 5",
+                    "inputname": "024",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2034,
+                    "name": "1 : 6",
+                    "inputname": "024",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2034,
+                    "name": "1 : 5",
+                    "inputname": "024",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2034,
+                    "name": "3 : 7",
+                    "inputname": "024",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2035,
+            "name": "Lusophone countries are countries that have __________ as their official language.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2035,
+                    "name": "Portuguese",
+                    "inputname": "025",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2035,
+                    "name": "French",
+                    "inputname": "025",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2035,
+                    "name": "English",
+                    "inputname": "025",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2035,
+                    "name": "Spanish",
+                    "inputname": "025",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2036,
+            "name": "Nigeria is part of the following except",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2036,
+                    "name": "WHO",
+                    "inputname": "026",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2036,
+                    "name": "UNESCO",
+                    "inputname": "026",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2036,
+                    "name": "ECOWAS",
+                    "inputname": "026",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2036,
+                    "name": "G8",
+                    "inputname": "026",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2037,
+            "name": "Dodecagon has ___ sides",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2037,
+                    "name": "10",
+                    "inputname": "027",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2037,
+                    "name": "15",
+                    "inputname": "027",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2037,
+                    "name": "12",
+                    "inputname": "027",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2037,
+                    "name": "20",
+                    "inputname": "027",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2038,
+            "name": "The Aba women riot took place was led by",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2038,
+                    "name": "Margaret Thatcher, 1929",
+                    "inputname": "028",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2038,
+                    "name": "Margaret Epko, 1929",
+                    "inputname": "028",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2038,
+                    "name": "Margaret Ifiong, 1929",
+                    "inputname": "028",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2038,
+                    "name": "Margaret Kuti, 1929",
+                    "inputname": "028",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2039,
+            "name": "Which of these is not regarded as a social science?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2039,
+                    "name": "Psychology",
+                    "inputname": "029",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2039,
+                    "name": "Sociology ",
+                    "inputname": "029",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2039,
+                    "name": "Economics",
+                    "inputname": "029",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2039,
+                    "name": "Philosophy",
+                    "inputname": "029",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2040,
+            "name": "England's Queen Elizabeth II passed away at the age of 96 at her ___________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2040,
+                    "name": "Windsor castle",
+                    "inputname": "030",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2040,
+                    "name": "Buckingham castle",
+                    "inputname": "030",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2040,
+                    "name": "Balmoral Castle",
+                    "inputname": "030",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2040,
+                    "name": "Woods castle",
+                    "inputname": "030",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2041,
+            "name": "Pick the odd one",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2041,
+                    "name": "Otukpo",
+                    "inputname": "031",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2041,
+                    "name": "Winneba",
+                    "inputname": "031",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 2041,
+                    "name": "Jebba",
+                    "inputname": "031",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2041,
+                    "name": "Okrika",
+                    "inputname": "031",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2042,
+            "name": "Who is the head of common wealth?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2042,
+                    "name": "Queen Elizabeth II",
+                    "inputname": "032",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2042,
+                    "name": "Vladimir Putin",
+                    "inputname": "032",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2042,
+                    "name": "Prince Charles III",
+                    "inputname": "032",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2042,
+                    "name": "Joe Biden",
+                    "inputname": "032",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2043,
+            "name": "The premier university in Nigeria is",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2043,
+                    "name": "University of Ibadan",
+                    "inputname": "033",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2043,
+                    "name": "University of Lagos",
+                    "inputname": "033",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2043,
+                    "name": "University of Ilorin",
+                    "inputname": "033",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2043,
+                    "name": "Obafemi Awolowo University",
+                    "inputname": "033",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2044,
+            "name": "Obi is to Onitsha as __________ is to Akure",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2044,
+                    "name": "Oba",
+                    "inputname": "034",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2044,
+                    "name": "Alayeluwa",
+                    "inputname": "034",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2044,
+                    "name": "Deji",
+                    "inputname": "034",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 2044,
+                    "name": "Ikubabayeye",
+                    "inputname": "034",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2045,
+            "name": "Which of this is not a type of hardwood?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2045,
+                    "name": "Pine",
+                    "inputname": "035",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2045,
+                    "name": "Teak",
+                    "inputname": "035",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2045,
+                    "name": "Oak",
+                    "inputname": "035",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2045,
+                    "name": "Iroko",
+                    "inputname": "035",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2046,
+            "name": "Which state in not in the south west?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2046,
+                    "name": "Kwara",
+                    "inputname": "036",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2046,
+                    "name": "Ondo",
+                    "inputname": "036",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2046,
+                    "name": "Lagos",
+                    "inputname": "036",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2046,
+                    "name": "Oyo",
+                    "inputname": "036",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2047,
+            "name": "The Louvre museum is located in",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2047,
+                    "name": "France",
+                    "inputname": "037",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2047,
+                    "name": "Italy",
+                    "inputname": "037",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2047,
+                    "name": "United States",
+                    "inputname": "037",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2047,
+                    "name": "United kingdom",
+                    "inputname": "037",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2048,
+            "name": "Who is Jeff Bezos?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2048,
+                    "name": "Founder and CEO of Amazon",
+                    "inputname": "038",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 2048,
+                    "name": "Founder and CEO of Tesla",
+                    "inputname": "038",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2048,
+                    "name": "Founder and CEO of Samsung",
+                    "inputname": "038",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2048,
+                    "name": "Founder and CEO of SpaceX",
+                    "inputname": "038",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2049,
+            "name": "The current Nigerian minister of petroleum is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 2049,
+                    "name": "Timipre Sylva",
+                    "inputname": "039",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 2049,
+                    "name": "Malami Pantami",
+                    "inputname": "039",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 2049,
+                    "name": "Godswill Akpabio",
+                    "inputname": "039",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 2049,
+                    "name": "Muhammadu Buhari",
+                    "inputname": "039",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3010,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3010,
+                    "name": "",
+                    "inputname": "001",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3010,
+                    "name": "",
+                    "inputname": "001",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3010,
+                    "name": "",
+                    "inputname": "001",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3010,
+                    "name": "",
+                    "inputname": "001",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
         }
     ]
 }

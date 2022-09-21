@@ -25,7 +25,7 @@ let newQuestions = arrayQuestions
     .map(({ value }) => value)
 
 // slice the questions to get the amount to display (40 for unilag and yabatech, 50 for Unilorin)
-const slicedQuestions = newQuestions.slice(0, 5);
+const slicedQuestions = newQuestions.slice(0, 40);
 
 class UnilagPu extends Component {
 
