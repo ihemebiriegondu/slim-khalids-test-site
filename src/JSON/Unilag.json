@@ -5,407 +5,1604 @@
     "questions": [
         {
             "id": 1010,
-            "name": "Inside which HTML element do we put the JavaScript?",
+            "name": "The young of a cow is called _________",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1010,
-                    "name": "javascript",
+                    "name": "Ewe",
                     "inputname": "one",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1010,
-                    "name": "scripting",
+                    "name": "kitten",
                     "inputname": "one",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1010,
-                    "name": "script",
+                    "name": "Calf",
                     "inputname": "one",
                     "isAnswer": true
                 },
                 {
                     "id": "D",
                     "questionId": 1010,
-                    "name": "js",
+                    "name": "Kid",
                     "inputname": "one",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1011,
-            "name": "What is the full form of SPA",
+            "name": "Ngozi is _________ of the three sisters",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1011,
-                    "name": "Secured and Progressive App",
+                    "name": "taller",
                     "inputname": "two",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1011,
-                    "name": "SOLID Principles for Application",
-                    "inputname": "two",
-                    "isAnswer": false
-                },
-                {
-                    "id": "B",
-                    "questionId": 1011,
-                    "name": "Single Page Application",
+                    "name": "tallest",
                     "inputname": "two",
                     "isAnswer": true
                 },
                 {
+                    "id": "B",
+                    "questionId": 1011,
+                    "name": "more tall",
+                    "inputname": "two",
+                    "isAnswer": false
+                },
+                {
                     "id": "D",
                     "questionId": 1011,
-                    "name": "None of the above",
+                    "name": "most tallest",
                     "inputname": "two",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1012,
-            "name": "Which of these keyword is NOT used to declare a variable in Javascript?",
+            "name": "The man bought clothes , shoes and mattresses in the market.\nThis sentence contains how many clause?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1012,
-                    "name": "dim",
+                    "name": "one",
                     "inputname": "three",
                     "isAnswer": true
                 },
                 {
                     "id": "C",
                     "questionId": 1012,
-                    "name": "let",
+                    "name": "two",
                     "inputname": "three",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1012,
-                    "name": "const",
+                    "name": "three",
                     "inputname": "three",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 1012,
-                    "name": "var",
+                    "name": "four",
                     "inputname": "three",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "inputname": "three",
                 "isActive": true
             }
         },
         {
             "id": 1013,
-            "name": "What does the <noscript> tag used for?",
+            "name": "Which tells you best what plenty is?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1013,
-                    "name": "Displayed text in non-JavaScript browsers.",
+                    "name": "more than enough",
                     "inputname": "four",
                     "isAnswer": true
                 },
                 {
                     "id": "C",
                     "questionId": 1013,
-                    "name": "Prevents Script Execution",
+                    "name": "a great deal",
                     "inputname": "four",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1013,
-                    "name": "Requests user not to run scripts",
+                    "name": "Enough",
                     "inputname": "four",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 1013,
-                    "name": "None of the above",
+                    "name": "all that you want",
                     "inputname": "four",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1014,
-            "name": "How do you write \"Hello World\" in an alert box?",
+            "name": "I have trouble.....my password.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1014,
-                    "name": "alertBox(\"Hello World\");",
+                    "name": "to remember",
                     "inputname": "five",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1014,
-                    "name": "msgBox(\"Hello World\");",
+                    "name": "to remembering my password",
                     "inputname": "five",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1014,
-                    "name": "display 'Hello World'",
+                    "name": "remember my password",
                     "inputname": "five",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 1014,
-                    "name": "alert('Hello World');",
+                    "name": "remembering my password",
                     "inputname": "five",
                     "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1015,
-            "name": "Which is NOT the Javascript framework/library?",
+            "name": "Which of the following punctuation marks doesn't have a dot?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1015,
-                    "name": "Angular",
+                    "name": "colon",
                     "inputname": "six",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1015,
-                    "name": "Ember",
+                    "name": "semicolon",
                     "inputname": "six",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1015,
-                    "name": ".Net Core",
+                    "name": "hyphen",
                     "inputname": "six",
                     "isAnswer": true
                 },
                 {
                     "id": "D",
                     "questionId": 1015,
-                    "name": "React",
+                    "name": "exclamation mark",
                     "inputname": "six",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1016,
-            "name": "Which method is used to return a copy of filtered array when predicate is passed?",
+            "name": "Let us say we agree.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1016,
-                    "name": "concat",
+                    "name": "don't we?",
                     "inputname": "seven",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1016,
-                    "name": "filter",
-                    "inputname": "seven",
-                    "isAnswer": true
-                },
-                {
-                    "id": "C",
-                    "questionId": 1016,
-                    "name": "search",
+                    "name": "isn't it?",
                     "inputname": "seven",
                     "isAnswer": false
                 },
                 {
+                    "id": "C",
+                    "questionId": 1016,
+                    "name": "shall we?",
+                    "inputname": "seven",
+                    "isAnswer": true
+                },
+                {
                     "id": "D",
                     "questionId": 1016,
-                    "name": "some",
+                    "name": "can't we?",
                     "inputname": "seven",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1017,
-            "name": "Which of the following is popular server side Javascript framework mainly used to write API?",
+            "name": "It all depended on what he __________.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1017,
-                    "name": "Angular",
+                    "name": "wants",
                     "inputname": "eight",
                     "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1017,
-                    "name": "Express",
+                    "name": "has wanted",
                     "inputname": "eight",
-                    "isAnswer": true
+                    "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1017,
-                    "name": "React",
+                    "name": "will want",
                     "inputname": "eight",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 1017,
-                    "name": "Kinetic",
+                    "name": "wanted",
                     "inputname": "eight",
-                    "isAnswer": false
+                    "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1018,
-            "name": "Which method is best suited to redirect to another url?",
+            "name": "The students and not their manager..... responsible for the crisis that happened last week.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1018,
-                    "name": "response.redirect",
+                    "name": "was",
                     "inputname": "nine",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1018,
-                    "name": "window.location",
+                    "name": "were",
                     "inputname": "nine",
                     "isAnswer": true
                 },
                 {
                     "id": "B",
                     "questionId": 1018,
-                    "name": "url.transfer",
+                    "name": "are",
                     "inputname": "nine",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 1018,
-                    "name": "window.redirect",
+                    "name": "is",
                     "inputname": "nine",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
                 "isActive": true
             }
         },
         {
             "id": 1019,
-            "name": "Which method is used to execute another method in a given time interval?",
+            "name": "SYNONYM - The information she gave me was invaluable.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 1019,
-                    "name": "setTimeout()",
+                    "name": "necessary",
                     "inputname": "ten",
-                    "isAnswer": true
+                    "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 1019,
-                    "name": "delayMethod()",
+                    "name": "useful",
                     "inputname": "ten",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 1019,
-                    "name": "evalLater()",
+                    "name": "costless",
                     "inputname": "ten",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 1019,
-                    "name": "timer()",
+                    "name": "essential",
                     "inputname": "ten",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1020,
+            "name": "Many students find Mathematics __________ than English.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1020,
+                    "name": "too difficult",
+                    "inputname": "eleven",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1020,
+                    "name": "more difficult",
+                    "inputname": "eleven",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1020,
+                    "name": "difficult",
+                    "inputname": "eleven",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1020,
+                    "name": "very difficult",
+                    "inputname": "eleven",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "name": "John was __________ careless _________ he came to the examination hall without a pen",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1021,
+                    "name": "very / so",
+                    "inputname": "twelve",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1021,
+                    "name": "so / that",
+                    "inputname": "twelve",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1021,
+                    "name": "as / that",
+                    "inputname": "twelve",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1021,
+                    "name": "so / as",
+                    "inputname": "twelve",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1022,
+            "name": "If the past participle of a particular word  is cut, what then is  the present tense of the word?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1022,
+                    "name": "cuts",
+                    "inputname": "thirteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1022,
+                    "name": "split",
+                    "inputname": "thirteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1022,
+                    "name": "cut",
+                    "inputname": "thirteen",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1022,
+                    "name": "essential",
+                    "inputname": "splits",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1023,
+            "name": "ANTONYM - I seldom go to church but John.....does.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1023,
+                    "name": "suddenly",
+                    "inputname": "fourteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1023,
+                    "name": "lately",
+                    "inputname": "fourteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1023,
+                    "name": "often",
+                    "inputname": "fourteen",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1023,
+                    "name": "quickly",
+                    "inputname": "fourteen",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1024,
+            "name": "The old man is gone. May his soul rest in ___________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1024,
+                    "name": "peaces",
+                    "inputname": "fifteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1024,
+                    "name": "pieces",
+                    "inputname": "fifteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1024,
+                    "name": "piece",
+                    "inputname": "fifteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1024,
+                    "name": "peace",
+                    "inputname": "fifteen",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1025,
+            "name": "He left all the ___________ at the shop and followed the _________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1025,
+                    "name": "ships / ship",
+                    "inputname": "sixteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1025,
+                    "name": "sheeps / ship",
+                    "inputname": "sixteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1025,
+                    "name": "Sheep / ship",
+                    "inputname": "sixteen",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1025,
+                    "name": "ships / sheep",
+                    "inputname": "sixteen",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1026,
+            "name": " Samson's condition is now ________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1026,
+                    "name": "fear",
+                    "inputname": "seventeen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1026,
+                    "name": "fair",
+                    "inputname": "seventeen",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1026,
+                    "name": "fare",
+                    "inputname": "seventeen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1026,
+                    "name": "faire",
+                    "inputname": "seventeen",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1027,
+            "name": "Obi ran there ...... that he got there before others.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1027,
+                    "name": "very so fast",
+                    "inputname": "eighteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1027,
+                    "name": "so very fast",
+                    "inputname": "eighteen",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1027,
+                    "name": "very so fast",
+                    "inputname": "eighteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1027,
+                    "name": "fast so very",
+                    "inputname": "eighteen",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1028,
+            "name": "The past tense of begin is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1028,
+                    "name": "begins",
+                    "inputname": "nineteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1028,
+                    "name": "began",
+                    "inputname": "nineteen",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1028,
+                    "name": "begun",
+                    "inputname": "nineteen",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1028,
+                    "name": "beginning",
+                    "inputname": "nineteen",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1029,
+            "name": "ANTONYM - agreement",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1029,
+                    "name": "accord",
+                    "inputname": "twenty",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1029,
+                    "name": "conformity",
+                    "inputname": "twenty",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1029,
+                    "name": "discord",
+                    "inputname": "twenty",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1029,
+                    "name": "yes",
+                    "inputname": "twenty",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1030,
+            "name": "Had I gone there yesterday; I might not have seen him. This implies;",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1030,
+                    "name": "Even though I went there yesterday, I didn't see him",
+                    "inputname": "21",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1030,
+                    "name": "If I had not gone there yesterday,I shouldn't have seen him",
+                    "inputname": "21",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1030,
+                    "name": "I didn't see him because I went there yesterday",
+                    "inputname": "21",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1030,
+                    "name": "I did not go there yesterday",
+                    "inputname": "21",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1031,
+            "name": "She ran into a pretty kettle of fish when she lost her salary.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1031,
+                    "name": "a state of confusion",
+                    "inputname": "22",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1031,
+                    "name": "a kettle of fish",
+                    "inputname": "22",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1031,
+                    "name": "a package of pretty fish",
+                    "inputname": "22",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1031,
+                    "name": "a pretty kettle of fish.",
+                    "inputname": "22",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1032,
+            "name": "In the olden days, twins were never accepted as members of the society. This simply means they were",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1032,
+                    "name": "banished",
+                    "inputname": "23",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1032,
+                    "name": "excommunication",
+                    "inputname": "23",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1032,
+                    "name": "expelled",
+                    "inputname": "23",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1032,
+                    "name": "ostracized",
+                    "inputname": "23",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1033,
+            "name": "The venom in my mother's voice suggested her disapproval of my attitude.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1033,
+                    "name": "agony",
+                    "inputname": "24",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1033,
+                    "name": "gallops",
+                    "inputname": "24",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1033,
+                    "name": "furiousness",
+                    "inputname": "24",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1033,
+                    "name": "hike",
+                    "inputname": "24",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1034,
+            "name": "When do you intend to move to the parmanent _________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1034,
+                    "name": "cite",
+                    "inputname": "25",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1034,
+                    "name": "site",
+                    "inputname": "25",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1034,
+                    "name": "sight",
+                    "inputname": "25",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1034,
+                    "name": "size",
+                    "inputname": "25",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1035,
+            "name": "Beatrice is always chasing the rainbow. This means;",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1035,
+                    "name": "Beatrice is always going after colourful things.",
+                    "inputname": "26",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1035,
+                    "name": "always trying to get favour from superiors",
+                    "inputname": "26",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1035,
+                    "name": "always chasing material things",
+                    "inputname": "26",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1035,
+                    "name": "always going after things that she will never get",
+                    "inputname": "26",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1036,
+            "name": "Superhuman. Super here means?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1036,
+                    "name": "before",
+                    "inputname": "27",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1036,
+                    "name": "after",
+                    "inputname": "27",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1036,
+                    "name": "under",
+                    "inputname": "27",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1036,
+                    "name": "beyond",
+                    "inputname": "27",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1037,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1037,
+                    "name": "Is sola with my CAR?",
+                    "inputname": "28",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1037,
+                    "name": "Is Dupe with my car?",
+                    "inputname": "28",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1037,
+                    "name": "Who is with my car?",
+                    "inputname": "28",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1037,
+                    "name": "Is Sola with my key?",
+                    "inputname": "28",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1038,
+            "name": "/g/",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1038,
+                    "name": "gnash",
+                    "inputname": "29",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1038,
+                    "name": "king",
+                    "inputname": "29",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1038,
+                    "name": "sing",
+                    "inputname": "29",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1038,
+                    "name": "rugged",
+                    "inputname": "29",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1039,
+            "name": "/I:/",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1039,
+                    "name": "kite",
+                    "inputname": "30",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1039,
+                    "name": "lit",
+                    "inputname": "30",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1039,
+                    "name": "leach",
+                    "inputname": "30",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1039,
+                    "name": "right",
+                    "inputname": "30",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1040,
+            "name": "Everybody ___________ to go home.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1040,
+                    "name": "is",
+                    "inputname": "31",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1040,
+                    "name": "are",
+                    "inputname": "31",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1040,
+                    "name": "have",
+                    "inputname": "31",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1040,
+                    "name": "be",
+                    "inputname": "31",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1041,
+            "name": "A sound was __________ from afar.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1041,
+                    "name": "hear",
+                    "inputname": "42",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1041,
+                    "name": "hearing",
+                    "inputname": "42",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1041,
+                    "name": "had",
+                    "inputname": "42",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1041,
+                    "name": "heard",
+                    "inputname": "42",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1042,
+            "name": "Toyin knew she had __________ the law.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1042,
+                    "name": "break",
+                    "inputname": "43",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1042,
+                    "name": "broke",
+                    "inputname": "43",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1042,
+                    "name": "broken",
+                    "inputname": "43",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1042,
+                    "name": "breaking",
+                    "inputname": "43",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1043,
+            "name": "The class rep __________ severely yesterday",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1043,
+                    "name": "is punished",
+                    "inputname": "44",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1043,
+                    "name": "was punished",
+                    "inputname": "44",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1043,
+                    "name": "were punished",
+                    "inputname": "44",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1043,
+                    "name": "will punish",
+                    "inputname": "44",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1044,
+            "name": "Mrs.Okoro __________ in this school since 1975.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1044,
+                    "name": "taught",
+                    "inputname": "35",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1044,
+                    "name": "was teaching",
+                    "inputname": "35",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1044,
+                    "name": "teaches",
+                    "inputname": "35",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1044,
+                    "name": "has been teaching",
+                    "inputname": "35",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1045,
+            "name": "You were at the party last night, _________ ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1045,
+                    "name": "were you",
+                    "inputname": "36",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1045,
+                    "name": "isn't it",
+                    "inputname": "36",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1045,
+                    "name": "wasn't it",
+                    "inputname": "36",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1045,
+                    "name": "weren't you",
+                    "inputname": "36",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1046,
+            "name": "He is Mr. Bello's son, __________ ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1046,
+                    "name": "isn't he",
+                    "inputname": "37",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1046,
+                    "name": "isn't it",
+                    "inputname": "37",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1046,
+                    "name": "is it",
+                    "inputname": "37",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1046,
+                    "name": "he is",
+                    "inputname": "37",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1047,
+            "name": "I thought you didn't have a football field in your school. Do you ? ___________ we don't.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1047,
+                    "name": "yes",
+                    "inputname": "38",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1047,
+                    "name": "never",
+                    "inputname": "38",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1047,
+                    "name": "no",
+                    "inputname": "38",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1047,
+                    "name": "maybe",
+                    "inputname": "38",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1048,
+            "name": "If you ___________ the photocopier off and off again, it sometimes work.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1048,
+                    "name": "turn",
+                    "inputname": "39",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1048,
+                    "name": "will turn",
+                    "inputname": "39",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1048,
+                    "name": "turned",
+                    "inputname": "39",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1048,
+                    "name": "turning",
+                    "inputname": "39",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1049,
+            "name": "John instructed his driver to ensure that the tank of the car is filled with ___________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1049,
+                    "name": "'much petrol",
+                    "inputname": "40",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1049,
+                    "name": "petrols",
+                    "inputname": "40",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1049,
+                    "name": "few petrol",
+                    "inputname": "40",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1049,
+                    "name": "a petrol",
+                    "inputname": "40",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
                 "isActive": true
             }
         }
     ]
 }
-
-
-
