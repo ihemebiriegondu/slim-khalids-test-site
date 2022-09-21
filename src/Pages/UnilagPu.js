@@ -243,7 +243,7 @@ class UnilagPu extends Component {
                             <div className="row row-cols-5 text-center">
                                 {slicedQuestions.map((q, index) =>
                                     <div key={q.id} className="cursor-pointer">
-                                        <div id={index} onClick={(e) => { (this.setState({ index: parseInt(e.target.id, quiz.length) })); handleHide() }} className={`p-2 mb-2 ${this.isAnswered(q) === 'Answered' ? 'answered-review' : 'warning-review'}`}>{index + 1}{/*. {this.isAnswered(q)}*/}</div>
+                                        <div id={index} onClick={(e) => { (this.setState({ index: parseInt(e.target.id, q.length) })); handleHide() }} className={`p-2 mb-2 ${this.isAnswered(q) === 'Answered' ? 'answered-review' : 'warning-review'}`}>{index + 1}{/*. {this.isAnswered(q)}*/}</div>
                                     </div>
                                 )}
                             </div>
