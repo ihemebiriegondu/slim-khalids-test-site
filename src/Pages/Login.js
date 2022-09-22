@@ -6,7 +6,7 @@ import Participants from "../JSON/Participants.json"
 
 import "../css/login.css"
 
-localStorage.clear()
+//localStorage.clear()
 
 const Login = () => {
 
