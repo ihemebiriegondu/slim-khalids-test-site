@@ -166,7 +166,7 @@
         },
         {
             "id": 1014,
-            "name": "I have trouble.....my password.",
+            "name": "I have trouble __________ my password.",
             "questionTypeId": 1,
             "options": [
                 {
@@ -326,7 +326,7 @@
         },
         {
             "id": 1018,
-            "name": "The students and not their manager..... responsible for the crisis that happened last week.",
+            "name": "The students and not their manager ___________ responsible for the crisis that happened last week.",
             "questionTypeId": 1,
             "options": [
                 {
@@ -686,7 +686,7 @@
         },
         {
             "id": 1027,
-            "name": "Obi ran there ...... that he got there before others.",
+            "name": "Obi ran there ___________ that he got there before others.",
             "questionTypeId": 1,
             "options": [
                 {
@@ -1126,7 +1126,7 @@
         },
         {
             "id": 1038,
-            "name": "/g/",
+            "name": "/ g /",
             "questionTypeId": 1,
             "options": [
                 {
@@ -1166,7 +1166,7 @@
         },
         {
             "id": 1039,
-            "name": "/I:/",
+            "name": "/ i: /",
             "questionTypeId": 1,
             "options": [
                 {
@@ -1572,7 +1572,7 @@
                 {
                     "id": "A",
                     "questionId": 1049,
-                    "name": "'much petrol",
+                    "name": "much petrol",
                     "inputname": "40",
                     "isAnswer": true
                 },
@@ -3166,35 +3166,635 @@
         },
         {
             "id": 3010,
-            "name": "",
+            "name": "What is the 7th term of the A.P -3, 1, 5",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": "A",
                     "questionId": 3010,
-                    "name": "",
+                    "name": "25",
                     "inputname": "001",
-                    "isAnswer": true
+                    "isAnswer": false
                 },
                 {
                     "id": "B",
                     "questionId": 3010,
-                    "name": "",
+                    "name": "19",
                     "inputname": "001",
                     "isAnswer": false
                 },
                 {
                     "id": "C",
                     "questionId": 3010,
-                    "name": "",
+                    "name": "7",
                     "inputname": "001",
                     "isAnswer": false
                 },
                 {
                     "id": "D",
                     "questionId": 3010,
-                    "name": "",
+                    "name": "21",
                     "inputname": "001",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3011,
+            "name": "If 3 log a + 5 log a - 6 log a = log 64. What is the value of a ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3011,
+                    "name": "4",
+                    "inputname": "002",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3011,
+                    "name": "8",
+                    "inputname": "002",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3011,
+                    "name": "32",
+                    "inputname": "002",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3011,
+                    "name": "16",
+                    "inputname": "002",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3012,
+            "name": "A car travels at 120km/hr. How long will it take it to get to Abuja which is 2400km away?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3012,
+                    "name": "20hrs",
+                    "inputname": "003",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3012,
+                    "name": "25hrs",
+                    "inputname": "003",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3012,
+                    "name": "15hrs",
+                    "inputname": "003",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3012,
+                    "name": "30hrs",
+                    "inputname": "003",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3013,
+            "name": "The solution to the inequality 5-2x > 11-4x is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3013,
+                    "name": "x > 3",
+                    "inputname": "004",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3013,
+                    "name": "x ≥ 3",
+                    "inputname": "004",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3013,
+                    "name": "x > 1",
+                    "inputname": "004",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3013,
+                    "name": "x < 1",
+                    "inputname": "004",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3014,
+            "name": "A chord 6.6m long is 5.6m away from the centre of the circle. The radius of the circle is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3014,
+                    "name": "3.2m",
+                    "inputname": "005",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3014,
+                    "name": "6.3m",
+                    "inputname": "005",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3014,
+                    "name": "6.5m",
+                    "inputname": "005",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3014,
+                    "name": "1.6m",
+                    "inputname": "005",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3015,
+            "name": "A class of all possible subsets of space S is called?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3015,
+                    "name": "Universal Set",
+                    "inputname": "006",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3015,
+                    "name": "Sample space",
+                    "inputname": "006",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3015,
+                    "name": "Probability space",
+                    "inputname": "006",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3015,
+                    "name": "Random space",
+                    "inputname": "006",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3016,
+            "name": "A dealer increased the price of an item by 20%  and then increased the price of the same item by 30%. If x is the original price. What is the price after the two increases?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3016,
+                    "name": "1.5x",
+                    "inputname": "007",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3016,
+                    "name": "x + 0.5",
+                    "inputname": "007",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3016,
+                    "name": "x + 0.56",
+                    "inputname": "007",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3016,
+                    "name": "1.56x",
+                    "inputname": "007",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3017,
+            "name": "If 35 is the median of the following numbers: 21, 7, 45, 33, 62 and x, then x is ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3017,
+                    "name": "3",
+                    "inputname": "008",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3017,
+                    "name": "14",
+                    "inputname": "008",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3017,
+                    "name": "37",
+                    "inputname": "008",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3017,
+                    "name": "33",
+                    "inputname": "008",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3018,
+            "name": "In an arithmetic sequence with 25 terms, if the first term is 60 and the last term is -12, the sum of the terms of the sequence is ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3018,
+                    "name": "2400",
+                    "inputname": "009",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3018,
+                    "name": "900",
+                    "inputname": "009",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3018,
+                    "name": "600",
+                    "inputname": "009",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3018,
+                    "name": "1800",
+                    "inputname": "009",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3019,
+            "name": "A straight line has gradient of -2 and passes through the point (4,1). What is it's equation?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3019,
+                    "name": "y + 2x = 6",
+                    "inputname": "0010",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3019,
+                    "name": "y = 2x - 6",
+                    "inputname": "0010",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3019,
+                    "name": "y + 2x + 9 = 0",
+                    "inputname": "0010",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3019,
+                    "name": "2y = x - 2",
+                    "inputname": "0010",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3020,
+            "name": "The Length of a rectangle is 3times the width. If the perimeter is 72cm. What is the length and width of the rectangle?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3020,
+                    "name": "6cm, 2cm",
+                    "inputname": "0011",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3020,
+                    "name": "15cm, 5cm",
+                    "inputname": "0011",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3020,
+                    "name": "27cm, 9cm",
+                    "inputname": "0011",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3020,
+                    "name": "10cm, 4cm",
+                    "inputname": "0011",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3021,
+            "name": "What is Sin 30?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3021,
+                    "name": "0.5",
+                    "inputname": "0012",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3021,
+                    "name": "0.8660",
+                    "inputname": "0012",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3021,
+                    "name": "1",
+                    "inputname": "0012",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3021,
+                    "name": "3/2",
+                    "inputname": "0012",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3022,
+            "name": "If x = 2, then (x-1)(2x-3) is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3022,
+                    "name": "3",
+                    "inputname": "0013",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3022,
+                    "name": "0",
+                    "inputname": "0013",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3022,
+                    "name": "-1",
+                    "inputname": "0013",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3022,
+                    "name": "1",
+                    "inputname": "0013",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3023,
+            "name": "What is the slope of the line perpendicular to y - 2x = 1?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3023,
+                    "name": "2",
+                    "inputname": "0014",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3023,
+                    "name": "-2",
+                    "inputname": "0014",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3023,
+                    "name": "-½",
+                    "inputname": "0014",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3023,
+                    "name": "½",
+                    "inputname": "0014",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3024,
+            "name": "In a survey of villagers, it is found that 20% of the people have visited Kano and 25% have visited Port Harcourt. If 5% have been to  both cities.Find the percentage of those that have visited neither Kano nor Port Harcourt?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3024,
+                    "name": "75%",
+                    "inputname": "0015",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3024,
+                    "name": "60%",
+                    "inputname": "0015",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3024,
+                    "name": "50%",
+                    "inputname": "0015",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3024,
+                    "name": "65%",
+                    "inputname": "0015",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3025,
+            "name": "Solve log₂(x)- log₂(x-1) = 2",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3025,
+                    "name": "2",
+                    "inputname": "0016",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3025,
+                    "name": "no solution",
+                    "inputname": "0016",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3025,
+                    "name": "4/3",
+                    "inputname": "0016",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3025,
+                    "name": "1",
+                    "inputname": "0016",
                     "isAnswer": false
                 }
             ],
