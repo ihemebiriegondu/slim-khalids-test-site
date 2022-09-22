@@ -21,12 +21,15 @@ export default class Instructions extends Component {
 
                 if (select === "UNILAG") {
                     window.open('https://quizzes.slimkhalid.com.ng/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                    return false
                     //document.getElementById("universityform").action = "/unilagtest";
                 } else if (select === "YABATECH") {
                     window.open('https://quizzes.slimkhalid.com.ng/yabatechtest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                    return false
                     //document.getElementById("universityform").action = "/yabatechtest";
                 } else if (select === "UNILORIN") {
                     window.open('https://quizzes.slimkhalid.com.ng/unilorintest?', '_blank', 'toolbar=0,location=0,menubar=0');
+                    return false
                     //document.getElementById("universityform").action = "/unilorintest";
                 } else {
                     e.preventDefault();
