@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Participants from '../JSON/Participants.json'
 
 export default class Instructions extends Component {
 
@@ -7,6 +8,8 @@ export default class Instructions extends Component {
 
         let Newattempt = localStorage.getItem("attempt")
 
+        let personEmail = localStorage.getItem("userEmail");
+
         const chooseUniversity = (e) => {
             if (Newattempt > 0) {
                 Newattempt--;
@@ -14,7 +17,9 @@ export default class Instructions extends Component {
                 document.getElementById("attempt").textContent = Newattempt;
                 localStorage.setItem("attempt", Newattempt)
 
-                if (select === "UNILAG") { 
+
+
+                if (select === "UNILAG") {
                     window.open('https://quizzes.slimkhalid.com.ng/unilagtest?', '_blank', 'toolbar=0,location=0,menubar=0');
                     //document.getElementById("universityform").action = "/unilagtest";
                 } else if (select === "YABATECH") {
@@ -29,6 +34,15 @@ export default class Instructions extends Component {
             }
 
             else {
+                for (let i = 0; i < Participants.length; i++) {
+                    //console.log(Participants[i])
+                    //console.log(Participants[i].Participant)
+                    let emailPersonIndex = Participants.findIndex(x => x.Participant.email === personEmail)
+
+                    delete Participants[emailPersonIndex].Participant.passcode;
+                    //console.log(Participants);
+                }
+
                 alert("You have no attempt left")
                 window.open('https://quizzes.slimkhalid.com.ng', '_self', 'toolbar=0,location=0,menubar=0')
             }
