@@ -45,7 +45,7 @@ const Login = () => {
 
         if (localStorage.getItem("attempt") > 0) {
 
-            let participantpasscode = localStorage.getItem("participantpasscode")
+            let participantpasscode = sessionStorage.getItem("participantpasscode")
             console.log(participantpasscode)
 
             if (isEmail === false && password.value !== participantpasscode) {
