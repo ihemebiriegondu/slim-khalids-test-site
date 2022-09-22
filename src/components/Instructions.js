@@ -49,7 +49,7 @@ export default class Instructions extends Component {
                         <li>Use the <span className='fw-bold'>Review</span> button to check for unanswered questions.</li>
                         <li>Click the question numbers in the Review page to jump to a certain question.</li>
                         <li>Click the <span className='fw-bold'>"Submit"</span> button when you are done with the test.</li>
-                        <li><b>Note: </b>You have only one attempt.</li>
+                        <li>NOTE: You have only <b>one</b> attempt.</li>
                     </ul>
 
                     <button className='btn start-btn rounded rounded-0 px-5 py-3 mt-4 mb-5' id='' onClick={(e) => {
@@ -57,6 +57,7 @@ export default class Instructions extends Component {
                     }
                     }>Start</button>
                 </div>
+                <p className='ms-3 text-danger d-none'><span id='attempt'>2</span> attempts left !</p>
             </div>
         )
     }
