@@ -37,7 +37,7 @@ const Login = () => {
                 //let participantName = localStorage.getItem("participantName")
                 
 
-                localStorage.setItem("participantpasscode", Participants[i].Participant.passcode)
+                sessionStorage.setItem("participantpasscode", Participants[i].Participant.passcode)
                 //console.log(participantpasscode)
             } 
         }
