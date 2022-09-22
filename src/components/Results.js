@@ -9,6 +9,14 @@ export default class Results extends Component {
         let participantName = localStorage.getItem("participantName");
         //let newTotalScore = localStorage.getItem("UserTotalScore");
 
+        let select = localStorage.getItem("university-choice");
+        let overallTotal;
+        if (select === "UNILAG" || select === "YABATECH") {
+            overallTotal = "out of 30"
+        } else if (select === "UNILORIN") {
+            overallTotal = "%"
+        }
+
         const closeWindow = () => {
             window.close();
         }
@@ -21,10 +29,10 @@ export default class Results extends Component {
                         <div className='result'>
                             <h3 className='text-center mb-5 fw-bold'>Well-done <BsEmojiSmile className='text-warning fw-bold' /></h3>
                             <p className='fs-5'>Name: {participantName}</p>
-                            <p className='fs-5'>Score: <span id='score'></span> out of 30</p>
+                            <p className='fs-5'>Score: <span id='score'></span> {overallTotal}</p>
 
                             <div className='text-center mt-5 retake-btn'>
-                                <a href='https://quizzes.slimkhalid.com.ng/instructions?' onClick={(e) => {closeWindow()}} className='btn text-white rounded rounded-2 px-5 py-3'>Retake</a>
+                                <a href='https://quizzes.slimkhalid.com.ng' onClick={(e) => {closeWindow()}} className='btn text-white rounded rounded-2 px-5 py-3'>Go Back</a>
                             </div>
                         </div>
                     </div>
