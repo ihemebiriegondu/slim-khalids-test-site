@@ -18,6 +18,7 @@ export default class Results extends Component {
         }
 
         const showPreview = () => {
+            window.close();
             document.querySelector(".mainPreviewDiv").classList.add("show");
         }
 

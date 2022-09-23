@@ -36,7 +36,7 @@ function Preview({ questions }) {
                                 <div className="row row-cols-2">
                                     {
                                         q.options.map(option =>
-                                            <div key={option.id} className="col-6">
+                                            <div key={option.id} className="col-6 mb-1">
                                                 <span className='alphabetOption me-3'>{option.id}</span>
                                                 <input id={option.id} className={`form-check-input ${q.isCorrect ? 'bg-success' : 'bg-danger'}`} type="checkbox" disabled="disabled" checked={option.selected} /> {option.name}
                                             </div>
@@ -48,7 +48,7 @@ function Preview({ questions }) {
                         </div>
                     )}
 
-                    <div>
+                    <div className='mt-4'>
                         <p className='fs-5'>Score: <span id='previewscore'></span> {overallTotal}</p>
                     </div>
                     <div className='text-center mt-5 mb-5 retake-btn'>
