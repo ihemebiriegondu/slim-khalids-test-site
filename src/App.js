@@ -7,6 +7,7 @@ import University from "./components/University";
 import Yabatech from "./Pages/Yabatech";
 import Unilorin from "./Pages/Unilorin";
 import Instructions from "./components/Instructions";
+import Preview from "./components/Preview";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/unilagtest" element={<UnilagPu />} />
             <Route path="/yabatechtest" element={<Yabatech />} />
             <Route path="/unilorintest" element={<Unilorin />} />
+            <Route path="/testpreview" element={<Preview />} />
           </Routes>
         </Router>
     </div>
