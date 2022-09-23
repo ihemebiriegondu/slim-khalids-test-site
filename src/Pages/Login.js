@@ -91,7 +91,7 @@ const Login = () => {
             <div className='login-backdrop'>
                 <div className='mainForm'>
                     <form className='shadow' id='loginform' action='' onSubmit={(event) => validateLoginForm(event)}>
-                        <h3 className='mb-5'>Login to take the weekly test for the week of Sept 15</h3>
+                        <h3 className='mb-5'>Login to take the weekly test for the week of Sept 19th</h3>
                         <div className="form-floating mb-5 email-form-floating">
                             <input type="email" className="form-control" id="email" placeholder="name@example.com" />
                             <label htmlFor="email">Email address</label>
