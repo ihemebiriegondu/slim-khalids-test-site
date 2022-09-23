@@ -11,7 +11,7 @@ import "../css/login.css"
 const Login = () => {
 
     if (localStorage.getItem("attempt") === null) {
-        localStorage.setItem("attempt", 1)
+        localStorage.setItem("attempt", 4)
     } else if (localStorage.getItem("attempt") === 0) {
         localStorage.setItem("attempt", -1);
     }
