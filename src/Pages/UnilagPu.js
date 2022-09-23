@@ -189,13 +189,13 @@ class UnilagPu extends Component {
             document.getElementById("previewscore").textContent = newTotalScore
 
             if (clickCounter === 0) {
-                //console.log(clickCounter)
+                console.log(localStorage.getItem("clickCounter"))
                 document.querySelector(".mainResultDiv").classList.add("show");
-                localStorage.removeItem("clickCounter");
-                //console.log(clickCounter)
+                console.log(localStorage.getItem("clickCounter"))
             } else {
                 document.querySelector(".mainResultDiv").classList.remove("show");
             }
+            localStorage.removeItem("clickCounter");
 
             document.getElementById("review").setAttribute("disabled", "");
         }
