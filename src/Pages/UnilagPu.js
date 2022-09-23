@@ -184,7 +184,7 @@ class UnilagPu extends Component {
 
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
-            
+
             document.querySelector(".mainResultDiv").classList.add("show");
 
             document.getElementById("review").setAttribute("disabled", "");
