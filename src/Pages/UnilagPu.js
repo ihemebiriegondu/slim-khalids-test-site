@@ -193,6 +193,8 @@ class UnilagPu extends Component {
                 document.querySelector(".mainResultDiv").classList.add("show");
                 localStorage.removeItem("clickCounter");
                 //console.log(clickCounter)
+            } else {
+                document.querySelector(".mainResultDiv").classList.remove("show");
             }
 
             document.getElementById("review").setAttribute("disabled", "");
