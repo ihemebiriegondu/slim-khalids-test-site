@@ -188,7 +188,7 @@ class UnilagPu extends Component {
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
 
-            if (clickCounter === "0") {
+            if (clickCounter === 0) {
                 //console.log(clickCounter)
                 document.querySelector(".mainResultDiv").classList.add("show");
                 localStorage.removeItem("clickCounter");
