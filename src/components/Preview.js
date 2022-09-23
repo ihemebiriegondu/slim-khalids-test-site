@@ -14,6 +14,7 @@ function Preview({ questions }) {
 
     const closeWindow = () => {
         window.close();
+        localStorage.clear()
     }
 
     let select = localStorage.getItem("university-choice");
