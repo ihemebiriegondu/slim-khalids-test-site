@@ -188,14 +188,15 @@ class UnilagPu extends Component {
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
 
-            if (clickCounter === 0) {
-                console.log(localStorage.getItem("clickCounter"))
+            if (clickCounter === "add") {
+                //console.log(localStorage)
                 document.querySelector(".mainResultDiv").classList.add("show");
-                console.log(localStorage.getItem("clickCounter"))
+                localStorage.removeItem("clickCounter");
+                //console.log(clickCounter)
             } else {
                 document.querySelector(".mainResultDiv").classList.remove("show");
+                window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
             }
-            localStorage.removeItem("clickCounter");
 
             document.getElementById("review").setAttribute("disabled", "");
         }

@@ -16,7 +16,7 @@ export default class Instructions extends Component {
 
                 document.getElementById("attempt").textContent = Newattempt;
                 localStorage.setItem("attempt", Newattempt)
-                localStorage.setItem("clickCounter", "0");
+                localStorage.setItem("clickCounter", "add");
 
 
 

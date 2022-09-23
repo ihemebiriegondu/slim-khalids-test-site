@@ -170,6 +170,8 @@ class Yabatech extends Component {
             let questions = slicedQuestions;
             let totalScore = 0;
 
+            let clickCounter = localStorage.getItem("clickCounter");
+
             questions.forEach(question => {
                 //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
                 question.isCorrect = question.options.every(x => x.selected === x.isAnswer);
@@ -186,7 +188,16 @@ class Yabatech extends Component {
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
 
-            document.querySelector(".mainResultDiv").classList.add("show");
+            if (clickCounter === "add") {
+                //console.log(localStorage)
+                document.querySelector(".mainResultDiv").classList.add("show");
+                localStorage.removeItem("clickCounter");
+                //console.log(clickCounter)
+            } else {
+                document.querySelector(".mainResultDiv").classList.remove("show");
+                window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
+            }
+            
             document.getElementById("review").setAttribute("disabled", "");
         }
 
