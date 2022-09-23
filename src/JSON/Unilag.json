@@ -3803,6 +3803,806 @@
                 "name": "Mathematics mcq",
                 "isActive": true
             }
+        },
+        {
+            "id": 3026,
+            "name": "33⅓ of 100 equals?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3026,
+                    "name": "33",
+                    "inputname": "0017",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3026,
+                    "name": "3333.33",
+                    "inputname": "0017",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3026,
+                    "name": "1",
+                    "inputname": "0017",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3026,
+                    "name": "30",
+                    "inputname": "0017",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3027,
+            "name": "What is 5% of £575",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3027,
+                    "name": "£30.8",
+                    "inputname": "0017",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3027,
+                    "name": "£28.75",
+                    "inputname": "0017",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3027,
+                    "name": "£25.5",
+                    "inputname": "0017",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3027,
+                    "name": "£55.5",
+                    "inputname": "0017",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3028,
+            "name": "Simplify (√8+√50) / √7 as far as possible",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3028,
+                    "name": "√14",
+                    "inputname": "0019",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3028,
+                    "name": "7√2",
+                    "inputname": "0019",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3028,
+                    "name": "25",
+                    "inputname": "0019",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3028,
+                    "name": "2",
+                    "inputname": "0019",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3029,
+            "name": "If x and y are two real numbers, such that 3x+ 2y= 5 and 5x+ 4y= 9, then 4x+3y is ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3029,
+                    "name": "0",
+                    "inputname": "0020",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3029,
+                    "name": "21",
+                    "inputname": "0020",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3029,
+                    "name": "13",
+                    "inputname": "0020",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3029,
+                    "name": "7",
+                    "inputname": "0020",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3030,
+            "name": "Which of the following is the formula for Range?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3030,
+                    "name": "H + L",
+                    "inputname": "0021",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3030,
+                    "name": "L * H",
+                    "inputname": "0021",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3030,
+                    "name": "L - H",
+                    "inputname": "0021",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3030,
+                    "name": "H - L",
+                    "inputname": "0021",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3031,
+            "name": "The graph of cumulative frequency distribution is called? __________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3031,
+                    "name": "frequency polygon",
+                    "inputname": "0022",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3031,
+                    "name": "ogive",
+                    "inputname": "0022",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3031,
+                    "name": "frequency curve",
+                    "inputname": "0022",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3031,
+                    "name": "frequency distribution curve",
+                    "inputname": "0022",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3032,
+            "name": "The height of 10 children in cm are: 145,163, 159, 162, 167, 149, 150, 160, 170 and 155. The mean height of the children is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3032,
+                    "name": "156cm",
+                    "inputname": "0023",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3032,
+                    "name": "158cm",
+                    "inputname": "0023",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3032,
+                    "name": "160cm",
+                    "inputname": "0023",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3032,
+                    "name": "162cm",
+                    "inputname": "0023",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3033,
+            "name": "What is the sum of the first 40 even integers?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3033,
+                    "name": "1600",
+                    "inputname": "0024",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3033,
+                    "name": "1560",
+                    "inputname": "0024",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3033,
+                    "name": "1640",
+                    "inputname": "0024",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3033,
+                    "name": "820",
+                    "inputname": "0024",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3034,
+            "name": "If tanθ + secθ = 4. What is the value of cosθ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3034,
+                    "name": "8/17",
+                    "inputname": "0025",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3034,
+                    "name": "5/17",
+                    "inputname": "0025",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3034,
+                    "name": "13/17",
+                    "inputname": "0025",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3034,
+                    "name": "11/17",
+                    "inputname": "0025",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3035,
+            "name": "Convert 35 base 8 base 5",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3035,
+                    "name": "104",
+                    "inputname": "0026",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3035,
+                    "name": "64",
+                    "inputname": "0026",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3035,
+                    "name": "72",
+                    "inputname": "0026",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3035,
+                    "name": "19",
+                    "inputname": "0026",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3036,
+            "name": "If Un= 2, 6, 10, ... the last term of the sequence is 90. The number of terms in the sequence is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3036,
+                    "name": "20",
+                    "inputname": "0027",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3036,
+                    "name": "22",
+                    "inputname": "0027",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3036,
+                    "name": "24",
+                    "inputname": "0027",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3036,
+                    "name": "23",
+                    "inputname": "0027",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3037,
+            "name": "Two dice are thrown, what is the probability that the sum of the two numbers obtained is greater than 10?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3037,
+                    "name": "1/36",
+                    "inputname": "0028",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3037,
+                    "name": "1/12",
+                    "inputname": "0028",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3037,
+                    "name": "1/6",
+                    "inputname": "0028",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3037,
+                    "name": "1/4",
+                    "inputname": "0028",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3038,
+            "name": "Y is inversely proportional to the square of x. When x = 3, then y = 4. What is the constant of proportionality?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3038,
+                    "name": "36",
+                    "inputname": "0029",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3038,
+                    "name": "28",
+                    "inputname": "0029",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3038,
+                    "name": "2.25",
+                    "inputname": "0029",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3038,
+                    "name": "4/9",
+                    "inputname": "0029",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3039,
+            "name": "Let the Universal set, U={1,2,3,4,5,6,}, A= {1,2,3} and B={2,4,6}. Then AnB‘ is ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3039,
+                    "name": "{1,3}",
+                    "inputname": "0030",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3039,
+                    "name": "{4,6}",
+                    "inputname": "0030",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3039,
+                    "name": "{2}",
+                    "inputname": "0030",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3039,
+                    "name": "{2,3,5}",
+                    "inputname": "0030",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3040,
+            "name": "How many bottles are in a dozen crate containing 24 bottles each?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3040,
+                    "name": "288",
+                    "inputname": "0031",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3040,
+                    "name": "300",
+                    "inputname": "0031",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3040,
+                    "name": "180",
+                    "inputname": "0031",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3040,
+                    "name": "120",
+                    "inputname": "0031",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3041,
+            "name": "A binary Operation is defined by x*y = xy-x+y. The value of (3*4)*5 is ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3041,
+                    "name": "81",
+                    "inputname": "0032",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3041,
+                    "name": "61",
+                    "inputname": "0032",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3041,
+                    "name": "57",
+                    "inputname": "0032",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3041,
+                    "name": "23",
+                    "inputname": "0032",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3042,
+            "name": "What is cos(315°)?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3042,
+                    "name": "1/√2",
+                    "inputname": "0033",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3042,
+                    "name": "½",
+                    "inputname": "0033",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3042,
+                    "name": "√3/2",
+                    "inputname": "0033",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3042,
+                    "name": "1/√3",
+                    "inputname": "0033",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3043,
+            "name": "Simplify (2-√3)³",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3043,
+                    "name": "10-9√3",
+                    "inputname": "0034",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3043,
+                    "name": "8-3√3",
+                    "inputname": "0034",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3043,
+                    "name": "26-15√3",
+                    "inputname": "0034",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 3043,
+                    "name": "26-9√3",
+                    "inputname": "0034",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3044,
+            "name": "The sum to infinity of a geometrical progression is 16/7 and the first term is 4. What is the common ratio?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3044,
+                    "name": "-2¾",
+                    "inputname": "0035",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3044,
+                    "name": "-¾",
+                    "inputname": "0035",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 3044,
+                    "name": "¾",
+                    "inputname": "0035",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3044,
+                    "name": "2¾",
+                    "inputname": "0035",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3045,
+            "name": "If α and β are the roots of the equation 2x² +3x -9 =0, find 1/α + 1/β",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3045,
+                    "name": "-⅓",
+                    "inputname": "0036",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3045,
+                    "name": "⅔",
+                    "inputname": "0036",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3045,
+                    "name": "3",
+                    "inputname": "0036",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3045,
+                    "name": "⅓",
+                    "inputname": "0036",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
         }
     ]
 }
