@@ -166,8 +166,6 @@ class UnilagPu extends Component {
         const handleShow = () => { this.setState({ show: true }) }
         const handleHide = () => { this.setState({ show: false }) }
 
-        localStorage.setItem("clickCounter", 0);
-
         const showFinalResult = () => {
             let questions = slicedQuestions;
             let totalScore = 0;
@@ -190,9 +188,11 @@ class UnilagPu extends Component {
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
 
-            if (clickCounter === 0) {
+            if (clickCounter === "0") {
+                //console.log(clickCounter)
                 document.querySelector(".mainResultDiv").classList.add("show");
-                localStorage.setItem("clickCounter", 1)
+                localStorage.removeItem("clickCounter");
+                //console.log(clickCounter)
             }
 
             document.getElementById("review").setAttribute("disabled", "");
