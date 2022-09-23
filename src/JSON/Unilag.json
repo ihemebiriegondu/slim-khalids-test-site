@@ -4603,6 +4603,166 @@
                 "name": "Mathematics mcq",
                 "isActive": true
             }
+        },
+        {
+            "id": 3046,
+            "name": "The distance between (7,10) & (2,6) is?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3046,
+                    "name": "√41",
+                    "inputname": "0037",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3046,
+                    "name": "10",
+                    "inputname": "0037",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3046,
+                    "name": "√25",
+                    "inputname": "0037",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3046,
+                    "name": "√19",
+                    "inputname": "0037",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3047,
+            "name": "Solve: 4¾ - 2½ x ½",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3047,
+                    "name": "4/3",
+                    "inputname": "0038",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3047,
+                    "name": "14/3",
+                    "inputname": "0038",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3047,
+                    "name": "9/8",
+                    "inputname": "0038",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3047,
+                    "name": "7/2",
+                    "inputname": "0038",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3048,
+            "name": "A 16m ladder is placed  against a house so that it's base is 8m from the house. What angle does  the ladder makes with the ground?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3048,
+                    "name": "60°",
+                    "inputname": "0039",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 3048,
+                    "name": "30°",
+                    "inputname": "0039",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3048,
+                    "name": "34°",
+                    "inputname": "0039",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3048,
+                    "name": "10°",
+                    "inputname": "0039",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 3049,
+            "name": "Find the intercept on the x and y axes respectively of the line 3x-2y+6 = 0",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3049,
+                    "name": "(3,2)",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3049,
+                    "name": "(2,3)",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3049,
+                    "name": "(3, -2)",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3049,
+                    "name": "(-2, 3)",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Mathematics mcq",
+                "isActive": true
+            }
         }
     ]
 }
