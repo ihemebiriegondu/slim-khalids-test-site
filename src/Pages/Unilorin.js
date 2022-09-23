@@ -186,6 +186,7 @@ class Unilorin extends Component {
             document.getElementById("previewscore").textContent = newTotalScore
             
             document.querySelector(".mainResultDiv").classList.add("show");
+            document.getElementById("review").setAttribute("disabled", "");
         }
 
         return (

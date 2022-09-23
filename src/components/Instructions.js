@@ -30,6 +30,7 @@ export default class Instructions extends Component {
                     //document.getElementById("universityform").action = "/unilorintest";
                 } else {
                     e.preventDefault();
+                    window.open('https://quizzes.slimkhalid.com.ng/instructions?', '_blank', 'toolbar=0,location=0,menubar=0');
                 }
             }
 

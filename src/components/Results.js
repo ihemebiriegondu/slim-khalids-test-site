@@ -18,12 +18,10 @@ export default class Results extends Component {
         }
 
         const showPreview = () => {
-            window.close();
-            window.open('https://quizzes.slimkhalid.com.ng/testpreview?', '_blank', 'toolbar=0,location=0,menubar=0');
             document.querySelector(".mainPreviewDiv").classList.add("show");
         }
 
-        return ( 
+        return (
             <div className='mainResultDiv'>
                 <img src={bigLogo} alt="" className='mainLoginImg' />
                 <div className='login-backdrop'>
