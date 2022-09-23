@@ -17,8 +17,8 @@ export default class Results extends Component {
             overallTotal = "%"
         }
 
-        const closeWindow = () => {
-            window.close();
+        const showPreview = () => {
+            document.querySelector(".mainPreviewDiv").classList.add("show");
         }
 
         return ( 
@@ -32,7 +32,7 @@ export default class Results extends Component {
                             <p className='fs-5'>Score: <span id='score'></span> {overallTotal}</p>
 
                             <div className='text-center mt-5 retake-btn'>
-                                <a href='https://quizzes.slimkhalid.com.ng' onClick={(e) => {closeWindow()}} className='btn text-white rounded rounded-2 px-5 py-3'>Go Back</a>
+                                <button className='btn text-white rounded rounded-2 px-5 py-3' onClick={() => { showPreview() }}>Preview</button>
                             </div>
                         </div>
                     </div>

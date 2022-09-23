@@ -8,6 +8,7 @@ import { GiAlarmClock } from 'react-icons/gi'
 import "../css/test.css"
 import '../css/reviews.css'
 import Results from '../components/Results';
+import Preview from '../components/Preview';
 
 /*const onConfirmRefresh = function (event) {
     event.preventDefault();
@@ -182,6 +183,8 @@ class UnilagPu extends Component {
             const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
 
             document.getElementById("score").textContent = newTotalScore
+            document.getElementById("previewscore").textContent = newTotalScore
+            
             document.querySelector(".mainResultDiv").classList.add("show");
         }
 
@@ -253,6 +256,8 @@ class UnilagPu extends Component {
 
                 {/*showing the results over the main page, to prevent going back to the test */}
                 <Results className="" />
+
+                <Preview className="" questions={slicedQuestions || []} />
             </div>
         );
     }

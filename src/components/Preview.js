@@ -1,30 +1,61 @@
 import React from 'react';
 
-function Preview(props) {
-    let questions = props.questions;
-    questions.forEach(q => { q.isCorrect = q.options.every(x => x.selected === x.isAnswer); })
+import '../css/results.css'
+
+function Preview({ questions }) {
+    let resultQuestions = questions;
+    //console.log(resultQuestions)
+    resultQuestions.forEach(q => {
+        q.isCorrect = q.options.every(x => x.selected === x.isAnswer);
+        //console.log(q)
+        q.correctAnswer = q.options.find(x => x.isAnswer === true).id;
+        //console.log(correctAnswers)
+    })
+
+    const closeWindow = () => {
+        window.close();
+    }
+
+    let select = localStorage.getItem("university-choice");
+    let overallTotal;
+    if (select === "UNILAG" || select === "YABATECH") {
+        overallTotal = "out of 30"
+    } else if (select === "UNILORIN") {
+        overallTotal = "%"
+    }
 
     return (
-        <div className="result">
-            <h2 className="text-center font-weight-normal">Quiz Result</h2>
-            {questions.map((q, index) =>
-                <div key={q.id} className={`mb-2 ${q.isCorrect ? 'bg-success' : 'bg-danger'}`}>
-                    <div className="result-question">
-                        <h5>{index + 1}. {q.name}</h5>
-                        <div className="row">
-                            {
-                                q.options.map(option =>
-                                    <div key={option.id} className="col-6">
-                                        <input id={option.id} type="checkbox" disabled="disabled" checked={option.selected} /> {option.name}
-                                    </div>
-                                )
-                            }
+        <div className='mainPreviewDiv'>
+            <div className="pb-5 bg-light pt-5">
+                <div className='col-11 m-auto'>
+                    <h2 className="text-center font-weight-normal mb-4">Quiz Preview</h2>
+                    {resultQuestions.map((q, index) =>
+                        <div key={q.id} className={`mb-2 previewQuestionsBorder ${q.isCorrect ? 'answerCorrectBorder' : 'answerWrongBorder'}`}>
+                            <div className="result-question px-md-5 px-3 py-3">
+                                <h5>{index + 1}. {q.name}</h5>
+                                <div className="row row-cols-2">
+                                    {
+                                        q.options.map(option =>
+                                            <div key={option.id} className="col-6">
+                                                <span className='alphabetOption me-3'>{option.id}</span>
+                                                <input id={option.id} className={`form-check-input ${q.isCorrect ? 'bg-success' : 'bg-danger'}`} type="checkbox" disabled="disabled" checked={option.selected} /> {option.name}
+                                            </div>
+                                        )
+                                    }
+                                </div>
+                                <div className={`m-1 p-1 text-bold ${q.isCorrect ? 'answerCorrectText' : 'answerWrongText'}`}>Your answer is {q.isCorrect ? 'Correct' : 'Wrong'}. <span>The correct answer is {q.correctAnswer}</span></div>
+                            </div>
                         </div>
-                        <div className={`m-1 p-1 text-bold ${q.isCorrect ? 'text-success' : 'text-danger'}`}>Your answer is {q.isCorrect ? 'Correct' : 'Wrong'}.</div>
+                    )}
+
+                    <div>
+                        <p className='fs-5'>Score: <span id='previewscore'></span> {overallTotal}</p>
+                    </div>
+                    <div className='text-center mt-5 mb-5 retake-btn'>
+                        <a href='https://quizzes.slimkhalid.com.ng' onClick={(e) => { closeWindow() }} className='btn btn-primary text-uppercase text-white rounded rounded-2 px-5 py-3'>Go Back</a>
                     </div>
                 </div>
-            )}
-            <h4 className="alert alert-info text-center">You may close this window now.</h4>
+            </div>
         </div>
     )
 }

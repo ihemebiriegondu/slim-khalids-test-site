@@ -4566,7 +4566,7 @@
         },
         {
             "id": 3045,
-            "name": "If α and β are the roots of the equation 2x² +3x -9 =0, find 1/α + 1/β",
+            "name": "If α and β are the roots of the equation 2x² + 3x - 9 =0, find 1/α + 1/β",
             "questionTypeId": 1,
             "options": [
                 {

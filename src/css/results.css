@@ -1,4 +1,4 @@
-.mainResultDiv {
+.mainResultDiv, .mainPreviewDiv {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -7,7 +7,7 @@
     display: none;
 }
 
-.mainResultDiv.show {
+.mainResultDiv.show, .mainPreviewDiv.show {
     display: block;
 }
 
@@ -27,17 +27,39 @@
     background-color: darkorange !important;
 }
 
-.retake-btn {
-    animation-name: showBtn;
-    animation-delay: 2s;
+
+
+
+
+/* for preview */
+
+.previewQuestionsBorder input[type="checkbox"]::before {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: transparent !important;
+    border-color: blue !important;
 }
 
-@keyframes showBtn {
-    0% {
-        visibility: hidden;
-    }
+.answerCorrectBorder {
+    border: 2px solid green !important;
+}
 
-    100% {
-        visibility: block;
-    }
+.answerWrongBorder {
+    border: 2px solid rgb(211, 7, 7) !important;
+}
+
+.answerCorrectText {
+    color: green !important;
+}
+
+.answerCorrectText span {
+    display: none !important;
+}
+
+.answerWrongText {
+    color: rgb(211, 7, 7) !important;
+}
+
+.answerWrongText span {
+    display: inline !important;
 }
