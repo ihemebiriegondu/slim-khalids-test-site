@@ -214,6 +214,12 @@ class UnilagPu extends Component {
                                 <GiAlarmClock className='display-5 me-2 my-clock' id='clock-timmmer' />
                                 <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
+                            <form>
+                                <input value={localStorage.getItem("participantName")} name='Name' />
+                                <input value={localStorage.getItem("userEmail")} name='Email' />
+                                <input value={localStorage.getItem("university-choice")} name='University' />
+                                <input name='Score' />
+                            </form>
                             <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>
                     </div>
