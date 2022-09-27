@@ -81,6 +81,7 @@ const Login = () => {
             email.classList.add("is-invalid")
             document.querySelector(".password-form-floating").classList.add("invalid-form")
             password.classList.add("is-invalid")
+            localStorage.removeItem("TotalScore");
         }
 
     }

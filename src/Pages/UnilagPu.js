@@ -183,7 +183,8 @@ class UnilagPu extends Component {
                     totalScore += 1;
                 }
             })
-            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
+            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2);
+            localStorage.setItem("TotalScore", newTotalScore);
 
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
@@ -214,13 +215,15 @@ class UnilagPu extends Component {
                                 <GiAlarmClock className='display-5 me-2 my-clock' id='clock-timmmer' />
                                 <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
-                            <form>
-                                <input value={localStorage.getItem("participantName")} name='Name' />
-                                <input value={localStorage.getItem("userEmail")} name='Email' />
-                                <input value={localStorage.getItem("university-choice")} name='University' />
-                                <input name='Score' />
+                            <form id='scoreForm' name='submit-to-google-sheet'>
+                                <input className='d-none' value={localStorage.getItem("participantName")} name='Name' />
+                                <input className='d-none' value={localStorage.getItem("userEmail")} name='Email' />
+                                <input className='d-none' value={localStorage.getItem("university-choice")} name='University' />
+                                <input className='d-none' value={localStorage.getItem("TotalScore")} name='Score' />
+
+                                <button type='submit' className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
+
                             </form>
-                            <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
                         </div>
                     </div>
                 </div>

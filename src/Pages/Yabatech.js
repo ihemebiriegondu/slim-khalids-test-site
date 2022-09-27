@@ -184,6 +184,7 @@ class Yabatech extends Component {
                 }
             })
             const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
+            localStorage.setItem("TotalScore", newTotalScore);
 
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
