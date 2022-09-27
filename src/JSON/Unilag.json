@@ -1605,6 +1605,1411 @@
             }
         },
         {
+            "id": 1050,
+            "name": "Which one is these is used to show possession?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "Inverted commas",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "Hypen",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "Apostrophe",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "Quotation marks",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1051,
+            "name": "One of the following needs to start with a capital letter.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1051,
+                    "name": "Monday",
+                    "inputname": "42",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1051,
+                    "name": "Holy",
+                    "inputname": "42",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1051,
+                    "name": "University",
+                    "inputname": "42",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1051,
+                    "name": "River",
+                    "inputname": "42",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1052,
+            "name": "How many punctuation marks are used in the sentence below; \n Of course it's necessary to go there. isn't it?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1052,
+                    "name": "3",
+                    "inputname": "43",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1052,
+                    "name": "4",
+                    "inputname": "43",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1052,
+                    "name": "5",
+                    "inputname": "43",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1052,
+                    "name": "6",
+                    "inputname": "43",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1053,
+            "name": "The ___________ teller talked about the __________ less animal.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1053,
+                    "name": "tale/tail",
+                    "inputname": "44",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1053,
+                    "name": "tail/tale",
+                    "inputname": "44",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1053,
+                    "name": "tail/tail",
+                    "inputname": "44",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1053,
+                    "name": "tale/tale",
+                    "inputname": "44",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1054,
+            "name": "Choose the word closet in meaning to the highlighted word. \n Equipped",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1054,
+                    "name": "ready",
+                    "inputname": "45",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1054,
+                    "name": "prepared",
+                    "inputname": "45",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1054,
+                    "name": "Empty",
+                    "inputname": "45",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1054,
+                    "name": "A and B",
+                    "inputname": "45",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1055,
+            "name": "Choose the word closet in meaning to the highlighted word. \n Profane",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1055,
+                    "name": "secular",
+                    "inputname": "46",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1055,
+                    "name": "sacred",
+                    "inputname": "46",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1055,
+                    "name": "regardful",
+                    "inputname": "46",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1055,
+                    "name": "A and B",
+                    "inputname": "46",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1056,
+            "name": "Choose the word closet in meaning to the highlighted word. \n Eccentric",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1056,
+                    "name": "usual",
+                    "inputname": "47",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1056,
+                    "name": "unusual",
+                    "inputname": "47",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1056,
+                    "name": "normal",
+                    "inputname": "47",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1056,
+                    "name": "none of the above",
+                    "inputname": "47",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1057,
+            "name": "Choose the word closet in meaning to the highlighted word. \n poignant",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1057,
+                    "name": "unemotional",
+                    "inputname": "48",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1057,
+                    "name": "moving",
+                    "inputname": "48",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1057,
+                    "name": "official",
+                    "inputname": "48",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1057,
+                    "name": "poor",
+                    "inputname": "48",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1058,
+            "name": "Choose the word closet in meaning to the highlighted word. \n protect",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1058,
+                    "name": "cover",
+                    "inputname": "49",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1058,
+                    "name": "attack",
+                    "inputname": "49",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1058,
+                    "name": "A and D",
+                    "inputname": "49",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1058,
+                    "name": "empty",
+                    "inputname": "49",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1059,
+            "name": "Her gown is as green as ____________.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1059,
+                    "name": "grass",
+                    "inputname": "50",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1059,
+                    "name": "glass",
+                    "inputname": "50",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1059,
+                    "name": "flag",
+                    "inputname": "50",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1059,
+                    "name": "butter",
+                    "inputname": "50",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1060,
+            "name": "A grandfather is ones ______________.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1060,
+                    "name": "father's father only",
+                    "inputname": "51",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1060,
+                    "name": "mother's mother only",
+                    "inputname": "51",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1060,
+                    "name": "both mother's and Father's father",
+                    "inputname": "51",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1060,
+                    "name": "All fathers and mothers above 50 years of age",
+                    "inputname": "51",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1061,
+            "name": "President Jonathon's speech ____________ at 9pm yesterday.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1061,
+                    "name": "had being broadcast",
+                    "inputname": "52",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1061,
+                    "name": "had been broadcast",
+                    "inputname": "52",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1061,
+                    "name": "was broadcast",
+                    "inputname": "52",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1061,
+                    "name": "was broadcasted",
+                    "inputname": "52",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1062,
+            "name": "Which of the following is correct?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1062,
+                    "name": "acomodation",
+                    "inputname": "53",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1062,
+                    "name": "accomodation",
+                    "inputname": "53",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1062,
+                    "name": "accommodation",
+                    "inputname": "53",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1062,
+                    "name": "acommodation",
+                    "inputname": "53",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1063,
+            "name": "I look forward to ____________ you next week.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1063,
+                    "name": "See",
+                    "inputname": "54",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1063,
+                    "name": "Seeing",
+                    "inputname": "54",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1063,
+                    "name": "seeing",
+                    "inputname": "54",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1063,
+                    "name": "seen",
+                    "inputname": "54",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1064,
+            "name": "Braille is used by __________.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1064,
+                    "name": "old people",
+                    "inputname": "55",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1064,
+                    "name": "blind people",
+                    "inputname": "55",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1064,
+                    "name": "short sighted people",
+                    "inputname": "55",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1064,
+                    "name": "illiterate people",
+                    "inputname": "55",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1065,
+            "name": "Compatriots in the first stanza of the National Anthem refers to ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1065,
+                    "name": "soldiers",
+                    "inputname": "56",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1065,
+                    "name": "Nigerians",
+                    "inputname": "56",
+                    "isAnswer": true
+                },
+                {
+                    "id": "C",
+                    "questionId": 1065,
+                    "name": "foreigners",
+                    "inputname": "56",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1065,
+                    "name": "companies",
+                    "inputname": "56",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1066,
+            "name": "Because of his ___________ nature, Ago was kicked out of the match",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1066,
+                    "name": "kind",
+                    "inputname": "57",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 1066,
+                    "name": "pilable",
+                    "inputname": "57",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1066,
+                    "name": "uncompromising",
+                    "inputname": "57",
+                    "isAnswer": true
+                },
+                {
+                    "id": "D",
+                    "questionId": 1066,
+                    "name": "uncalculating",
+                    "inputname": "57",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1067,
+            "name": "There was _____________ any traffic as he drove home.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1067,
+                    "name": "hardly",
+                    "inputname": "58",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1067,
+                    "name": "normally",
+                    "inputname": "58",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1067,
+                    "name": "usually",
+                    "inputname": "58",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1067,
+                    "name": "no",
+                    "inputname": "58",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1068,
+            "name": "The idle man could not see __________ on the wall and he lost his job.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1068,
+                    "name": "the writing",
+                    "inputname": "59",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1068,
+                    "name": "what is written",
+                    "inputname": "59",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1068,
+                    "name": "what will be written",
+                    "inputname": "59",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1068,
+                    "name": "the handwriting",
+                    "inputname": "59",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },{
+            "id": 1050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": true
+                },
+                {
+                    "id": "B",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 1050,
+                    "name": "",
+                    "inputname": "41",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "English mcq",
+                "isActive": true
+            }
+        },
+        {
             "id": 2010,
             "name": "Who is the current director general of WHO?",
             "questionTypeId": 1,
