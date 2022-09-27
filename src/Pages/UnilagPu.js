@@ -166,11 +166,13 @@ class UnilagPu extends Component {
         const handleShow = () => { this.setState({ show: true }) }
         const handleHide = () => { this.setState({ show: false }) }
 
-        const showFinalResult = () => {
+
+
+
+        const scoreToUpdate = () => {
             let questions = slicedQuestions;
             let totalScore = 0;
 
-            let clickCounter = localStorage.getItem("clickCounter");
 
             questions.forEach(question => {
                 //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
@@ -188,6 +190,12 @@ class UnilagPu extends Component {
 
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
+        }
+
+        const showFinalResult = (event) => {
+            event.preventDefault()
+
+            let clickCounter = localStorage.getItem("clickCounter");
 
             if (clickCounter === "add") {
                 //console.log(localStorage)
@@ -200,6 +208,20 @@ class UnilagPu extends Component {
             }
 
             document.getElementById("review").setAttribute("disabled", "");
+        }
+
+        function addScore(event) {
+            event.preventDefault();
+            scoreToUpdate();
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', showFinalResult(event)))
+                .catch(error => console.error('Error!'))
         }
 
         return (
@@ -215,13 +237,13 @@ class UnilagPu extends Component {
                                 <GiAlarmClock className='display-5 me-2 my-clock' id='clock-timmmer' />
                                 <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
-                            <form id='scoreForm' name='submit-to-google-sheet'>
+                            <form id='scoreForm' name='submit-to-google-sheet' onSubmit={(event) => { addScore(event) }}>
                                 <input className='d-none' value={localStorage.getItem("participantName")} name='Name' />
                                 <input className='d-none' value={localStorage.getItem("userEmail")} name='Email' />
                                 <input className='d-none' value={localStorage.getItem("university-choice")} name='University' />
-                                <input className='d-none' value={localStorage.getItem("TotalScore")} name='Score' />
+                                <input className='d-none' id='score-form-inpur' value={localStorage.getItem("TotalScore")} name='Score' />
 
-                                <button type='submit' className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
+                                <button type='submit' className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" /*onClick={() => { showFinalResult() }}*/ >Submit</button>
 
                             </form>
                         </div>

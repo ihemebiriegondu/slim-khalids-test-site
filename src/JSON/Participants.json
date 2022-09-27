@@ -5,5 +5,12 @@
             "email": "ihemebiriegondu@gmail.com",
             "passcode": "12345"
         }
+    },
+    {
+        "Participant": {
+            "name": "John",
+            "email": "john@gmail.com",
+            "passcode": "00000"
+        }
     }
 ]

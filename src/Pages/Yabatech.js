@@ -155,7 +155,7 @@ class Yabatech extends Component {
             event.preventDefault();
             return event.returnValue = "Are you sure you want to leave the page?";
         }
-        
+
         window.addEventListener("beforeunload", onConfirmRefresh, { capture: true });
 
         //For showing the questions one after the other instead of together on a page
@@ -166,11 +166,10 @@ class Yabatech extends Component {
         const handleShow = () => { this.setState({ show: true }) }
         const handleHide = () => { this.setState({ show: false }) }
 
-        const showFinalResult = () => {
+        const scoreToUpdate = () => {
             let questions = slicedQuestions;
             let totalScore = 0;
 
-            let clickCounter = localStorage.getItem("clickCounter");
 
             questions.forEach(question => {
                 //checking thorugh the displayed questions for ann the selected options and assigning them to a variable question.isCorrect
@@ -183,11 +182,17 @@ class Yabatech extends Component {
                     totalScore += 1;
                 }
             })
-            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2)
+            const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2);
             localStorage.setItem("TotalScore", newTotalScore);
 
             document.getElementById("score").textContent = newTotalScore
             document.getElementById("previewscore").textContent = newTotalScore
+        }
+
+        const showFinalResult = (event) => {
+            event.preventDefault()
+
+            let clickCounter = localStorage.getItem("clickCounter");
 
             if (clickCounter === "add") {
                 //console.log(localStorage)
@@ -198,8 +203,22 @@ class Yabatech extends Component {
                 document.querySelector(".mainResultDiv").classList.remove("show");
                 window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
             }
-            
+
             document.getElementById("review").setAttribute("disabled", "");
+        }
+
+        function addScore(event) {
+            event.preventDefault();
+            scoreToUpdate();
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', showFinalResult(event)))
+                .catch(error => console.error('Error!'))
         }
 
         return (
@@ -215,7 +234,15 @@ class Yabatech extends Component {
                                 <GiAlarmClock className='display-5 me-2 my-clock' id='clock-timmmer' />
                                 <span className='time' id='timmmer'>{this.state.time.m} : {this.state.time.s}</span>
                             </div>
-                            <button className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" onClick={() => { showFinalResult() }}>Submit</button>
+                            <form id='scoreForm' name='submit-to-google-sheet' onSubmit={(event) => { addScore(event) }}>
+                                <input className='d-none' value={localStorage.getItem("participantName")} name='Name' />
+                                <input className='d-none' value={localStorage.getItem("userEmail")} name='Email' />
+                                <input className='d-none' value={localStorage.getItem("university-choice")} name='University' />
+                                <input className='d-none' id='score-form-inpur' value={localStorage.getItem("TotalScore")} name='Score' />
+
+                                <button type='submit' className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" /*onClick={() => { showFinalResult() }}*/ >Submit</button>
+
+                            </form>
                         </div>
                     </div>
                 </div>
