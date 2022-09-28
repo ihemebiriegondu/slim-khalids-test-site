@@ -214,6 +214,8 @@ class UnilagPu extends Component {
             const form = document.forms['submit-to-google-sheet']
 
             document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
+            document.getElementById("over-30-score").value = localStorage.getItem("OverThirtyScore");
+
             let clickCounter = localStorage.getItem("clickCounter");
 
             if (clickCounter === "add") {
@@ -246,7 +248,7 @@ class UnilagPu extends Component {
                                 <input className='d-none' value={localStorage.getItem("userEmail")} name='Email' />
                                 <input className='d-none' value={localStorage.getItem("university-choice")} name='University' />
                                 <input className='d-none' id='score-form-inpur' value={localStorage.getItem("TotalScore")} name='Score' />
-                                <input className='d-none' id='over-30-score' value={localStorage.getItem("TOverThirtyScore")} name='Over30' />
+                                <input className='d-none' id='over-30-score' value={localStorage.getItem("OverThirtyScore")} name='Over30' />
 
                                 <button type='submit' className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" /*onClick={() => { showFinalResult() }}*/ >Submit</button>
 
