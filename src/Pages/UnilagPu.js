@@ -214,6 +214,8 @@ class UnilagPu extends Component {
             event.preventDefault();
             scoreToUpdate(); 
 
+            let clickCounter = localStorage.getItem("clickCounter");
+            
             if (clickCounter === "add") {
                 const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
                 const form = document.forms['submit-to-google-sheet']
