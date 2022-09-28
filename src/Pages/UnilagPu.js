@@ -201,15 +201,18 @@ class UnilagPu extends Component {
                 //console.log(localStorage)
                 document.querySelector(".mainResultDiv").classList.add("show");
                 localStorage.removeItem("clickCounter");
+                document.getElementById("review").setAttribute("disabled", "");
+                
                 return true;
+                
                 //console.log(clickCounter)
             } else {
                 document.querySelector(".mainResultDiv").classList.remove("show");
                 window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
+
+                document.getElementById("review").setAttribute("disabled", "");
                 return false;
             }
-
-            document.getElementById("review").setAttribute("disabled", "");
         }
 
         function addScore(event) {
