@@ -212,7 +212,7 @@ class UnilagPu extends Component {
 
         function addScore(event) {
             event.preventDefault();
-            scoreToUpdate();
+            scoreToUpdate(); 
 
             if (clickCounter === "add") {
                 const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
