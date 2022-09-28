@@ -202,7 +202,7 @@ class UnilagPu extends Component {
                 document.querySelector(".mainResultDiv").classList.add("show");
                 localStorage.removeItem("clickCounter");
                 document.getElementById("review").setAttribute("disabled", "");
-                
+
                 return true;
                 
                 //console.log(clickCounter)
@@ -221,7 +221,7 @@ class UnilagPu extends Component {
 
             showFinalResult(event)
 
-            if (showFinalResult(event)) {
+            if (showFinalResult()) {
                 const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
                 const form = document.forms['submit-to-google-sheet']
 
