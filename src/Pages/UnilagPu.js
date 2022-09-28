@@ -186,6 +186,9 @@ class UnilagPu extends Component {
                 }
             })
             const newTotalScore = parseFloat(totalScore / 40 * 30).toFixed(2);
+            const overThirtyScore = parseFloat(totalScore / 40 * 30).toFixed(2);
+
+            localStorage.setItem("OverThirtyScore", overThirtyScore);
             localStorage.setItem("TotalScore", newTotalScore);
 
             document.getElementById("score").textContent = newTotalScore
@@ -243,6 +246,7 @@ class UnilagPu extends Component {
                                 <input className='d-none' value={localStorage.getItem("userEmail")} name='Email' />
                                 <input className='d-none' value={localStorage.getItem("university-choice")} name='University' />
                                 <input className='d-none' id='score-form-inpur' value={localStorage.getItem("TotalScore")} name='Score' />
+                                <input className='d-none' id='over-30-score' value={localStorage.getItem("TOverThirtyScore")} name='Over30' />
 
                                 <button type='submit' className='btn btn-danger px-sm-4 px-3 py-sm-3 py-2' id="quit-button" /*onClick={() => { showFinalResult() }}*/ >Submit</button>
 
