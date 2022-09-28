@@ -214,14 +214,23 @@ class UnilagPu extends Component {
             event.preventDefault();
             scoreToUpdate();
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
-            const form = document.forms['submit-to-google-sheet']
+            if (clickCounter === "add") {
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
+                const form = document.forms['submit-to-google-sheet']
 
-            document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
+                document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
 
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => console.log('Success!', showFinalResult(event)))
-                .catch(error => console.error('Error!'))
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', showFinalResult(event)))
+                    .catch(error => console.error('Error!'))
+            } else {
+                document.querySelector(".mainResultDiv").classList.remove("show");
+                window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
+            }
+
+            document.getElementById("review").setAttribute("disabled", "");
+
+
         }
 
         return (
