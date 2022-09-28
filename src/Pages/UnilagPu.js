@@ -201,10 +201,12 @@ class UnilagPu extends Component {
                 //console.log(localStorage)
                 document.querySelector(".mainResultDiv").classList.add("show");
                 localStorage.removeItem("clickCounter");
+                return true;
                 //console.log(clickCounter)
             } else {
                 document.querySelector(".mainResultDiv").classList.remove("show");
                 window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
+                return false;
             }
 
             document.getElementById("review").setAttribute("disabled", "");
@@ -212,18 +214,18 @@ class UnilagPu extends Component {
 
         function addScore(event) {
             event.preventDefault();
-            scoreToUpdate(); 
+            scoreToUpdate();
 
-            let clickCounter = localStorage.getItem("clickCounter");
-            
-            if (clickCounter === "add") {
+            showFinalResult(event)
+
+            if (showFinalResult(event)) {
                 const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
                 const form = document.forms['submit-to-google-sheet']
 
                 document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
 
                 fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                    .then(response => console.log('Success!', showFinalResult(event)))
+                    .then(response => console.log('Success!'))
                     .catch(error => console.error('Error!'))
             } else {
                 document.querySelector(".mainResultDiv").classList.remove("show");
