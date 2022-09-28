@@ -192,17 +192,10 @@ class Yabatech extends Component {
         const showFinalResult = (event) => {
             event.preventDefault()
 
-            let clickCounter = localStorage.getItem("clickCounter");
-
-            if (clickCounter === "add") {
-                //console.log(localStorage)
-                document.querySelector(".mainResultDiv").classList.add("show");
-                localStorage.removeItem("clickCounter");
-                //console.log(clickCounter)
-            } else {
-                document.querySelector(".mainResultDiv").classList.remove("show");
-                window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
-            }
+            //console.log(localStorage)
+            document.querySelector(".mainResultDiv").classList.add("show");
+            localStorage.removeItem("clickCounter");
+            //console.log(clickCounter)
 
             document.getElementById("review").setAttribute("disabled", "");
         }
@@ -215,10 +208,18 @@ class Yabatech extends Component {
             const form = document.forms['submit-to-google-sheet']
 
             document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
+            let clickCounter = localStorage.getItem("clickCounter");
 
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => console.log('Success!', showFinalResult(event)))
-                .catch(error => console.error('Error!'))
+            if (clickCounter === "add") {
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', showFinalResult(event)))
+                    .catch(error => console.error('Error!'))
+            } else {
+                document.querySelector(".mainResultDiv").classList.remove("show");
+                window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
+            }
+
+
         }
 
         return (
