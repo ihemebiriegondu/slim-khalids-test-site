@@ -195,47 +195,32 @@ class UnilagPu extends Component {
         const showFinalResult = (event) => {
             event.preventDefault()
 
-            let clickCounter = localStorage.getItem("clickCounter");
+            //console.log(localStorage)
+            document.querySelector(".mainResultDiv").classList.add("show");
+            localStorage.removeItem("clickCounter");
+            //console.log(clickCounter)
 
-            if (clickCounter === "add") {
-                //console.log(localStorage)
-                document.querySelector(".mainResultDiv").classList.add("show");
-                localStorage.removeItem("clickCounter");
-                document.getElementById("review").setAttribute("disabled", "");
-
-                return true;
-                
-                //console.log(clickCounter)
-            } else {
-                document.querySelector(".mainResultDiv").classList.remove("show");
-                window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
-
-                document.getElementById("review").setAttribute("disabled", "");
-                return false;
-            }
+            document.getElementById("review").setAttribute("disabled", "");
         }
 
         function addScore(event) {
             event.preventDefault();
             scoreToUpdate();
 
-            //showFinalResult(event)
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
+            const form = document.forms['submit-to-google-sheet']
 
-            if (showFinalResult()) {
-                const scriptURL = 'https://script.google.com/macros/s/AKfycbxIPMSrkdC8kSCYy2673OcrtCwcyTV-Ps--mneqtb3XSd0RBbfzyE6BmrUU06hmamGc6Q/exec'
-                const form = document.forms['submit-to-google-sheet']
+            document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
+            let clickCounter = localStorage.getItem("clickCounter");
 
-                document.getElementById("score-form-inpur").value = localStorage.getItem("TotalScore")
-
+            if (clickCounter === "add") {
                 fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                    .then(response => console.log('Success!'))
+                    .then(response => console.log('Success!', showFinalResult(event)))
                     .catch(error => console.error('Error!'))
             } else {
                 document.querySelector(".mainResultDiv").classList.remove("show");
                 window.open('https://quizzes.slimkhalid.com.ng?', '_parent')
             }
-
-            document.getElementById("review").setAttribute("disabled", "");
 
 
         }
