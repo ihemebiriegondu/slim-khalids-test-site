@@ -8,7 +8,7 @@ import "../css/login.css"
 
 const Login = () => {
 
-    localStorage.removeItem("attempt")
+    localStorage.clear();
 
 
     if (localStorage.getItem("attempt") === null) {
