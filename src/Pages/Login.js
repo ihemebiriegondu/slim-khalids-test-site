@@ -6,18 +6,19 @@ import Participants from "../JSON/Participants.json"
 
 import "../css/login.css"
 
-localStorage.removeItem("attempt")
-
 const Login = () => {
+
+    localStorage.removeItem("attempt")
+
 
     if (localStorage.getItem("attempt") === null) {
         localStorage.setItem("attempt", 1)
     } else if (localStorage.getItem("attempt") === 0) {
         localStorage.setItem("attempt", -1);
     }
-    
 
-    
+
+
     const validateLoginForm = (event) => {
 
         const email = document.getElementById("email");
@@ -35,11 +36,11 @@ const Login = () => {
                 //email for removal in instruction page
                 localStorage.setItem("userEmail", email.value)
                 //let participantName = localStorage.getItem("participantName")
-                
+
 
                 sessionStorage.setItem("participantpasscode", Participants[i].Participant.passcode)
                 //console.log(participantpasscode)
-            } 
+            }
         }
 
 
