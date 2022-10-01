@@ -11,7 +11,7 @@ import "../css/login.css"
 const Login = () => {
 
     if (localStorage.getItem("attempt") === null) {
-        localStorage.setItem("attempt", 3)
+        localStorage.setItem("attempt", 1)
     } else if (localStorage.getItem("attempt") === 0) {
         localStorage.setItem("attempt", -1);
     }
@@ -92,7 +92,7 @@ const Login = () => {
             <div className='login-backdrop'>
                 <div className='mainForm'>
                     <form className='shadow' id='loginform' action='' onSubmit={(event) => validateLoginForm(event)}>
-                        <h3 className='mb-5'>Login to take the weekly test for the week of Sept 19th</h3>
+                        <h3 className='mb-5'>Login to take the weekly test for the week of Sept 26th</h3>
                         <div className="form-floating mb-5 email-form-floating">
                             <input type="email" className="form-control" id="email" placeholder="name@example.com" />
                             <label htmlFor="email">Email address</label>
