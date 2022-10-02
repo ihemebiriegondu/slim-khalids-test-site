@@ -12,54 +12,5 @@
             "email": "john@gmail.com",
             "passcode": "00000"
         }
-    },
-    {
-        "Participant": {
-            "name": "Balogun Toheeb Oreoluwa",
-            "email": "toheebbalogun538@gmail.com",
-            "passcode": "003TSKQ"
-        }
-    },
-    {
-        "Participant": {
-            "name": "Peluola Itunu Teni",
-            "email": "peluolaitunu2006@gmail.com",
-            "passcode": "004TSKQ"
-        }
-    },
-    {
-        "Participant": {
-            "name": "Ololade",
-            "email": "moshaks323@gmail.com",
-            "passcode": "006TSKQ"
-        }
-    },
-    {
-        "Participant": {
-            "name": "Khalid",
-            "email": "adamskhalid38@gmail.com",
-            "passcode": "007TSKQ"
-        }
-    },
-    {
-        "Participant": {
-            "name": "Deborah",
-            "email": "Olaleyed007@gmail.com",
-            "passcode": "008TSKQ"
-        }
-    },
-    {
-        "Participant": {
-            "name": "Obanegba Grace",
-            "email": "graceobanegba2@gmail.com",
-            "passcode": "009TSKQ"
-        }
-    },
-    {
-        "Participant": {
-            "name": "Akinbode Oluwaseun",
-            "email": "akinyeleabdulhadioluwaseun@gmail.com",
-            "passcode": "010TSKQ"
-        }
     }
 ]
