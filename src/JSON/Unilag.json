@@ -3512,7 +3512,7 @@
                 },
                 {
                     "id": "D",
-                    "questionId": 2018,
+                    "questionId": 2017,
                     "name": "10hrs 17mins",
                     "inputname": "08",
                     "isAnswer": false
@@ -4755,6 +4755,926 @@
                     "questionId": 2049,
                     "name": "Muhammadu Buhari",
                     "inputname": "039",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "The currency of Malaysia is ______________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "Dollar",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "Euro",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "Rupee",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "Ringgit",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "General paper mcq",
+                "isActive": true
+            }
+        },
+        {
+            "id": 2050,
+            "name": "",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": "A",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "B",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "C",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
+                    "isAnswer": false
+                },
+                {
+                    "id": "D",
+                    "questionId": 3050,
+                    "name": "",
+                    "inputname": "0040",
                     "isAnswer": true
                 }
             ],
